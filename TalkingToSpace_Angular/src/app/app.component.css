@@ -1,0 +1,26 @@
+mat-sidenav {
+  margin: 0px;
+  width: 8%;
+  border-right: none;
+  background:transparent !important;
+  color: white;
+  border-radius: 10px;
+  padding: 5px;
+  text-align: left;
+}
+
+
+mat-sidenav-container {
+  height: calc(100vh);
+  background: transparent;
+}
+img{
+  margin-top: 5%;
+  height: auto;
+  width:15%;
+  position: absolute;
+  z-index: 1;
+  right: 20px;
+}
+
+
