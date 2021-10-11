@@ -1,23 +1,20 @@
 
-<! --<video autoplay muted>
-  <! --<source src="../assets/video2.mp4" type="video/mp4">
-  <! --</video>
-<div>
-  <img class="img1" src='../assets/background4.png'>
-</div>
-<div>
-  <img class="img2" src='../assets/background5.png'>
-
-</div>
+<video autoplay muted>
+  <source src="../assets/video3.mp4" type="video/mp4">
+</video>
 
 <div class="btn">
-  <button mat-button routerLink="/login">
+  <button mat-button (click)="signup()" *ngIf="(auth.isAuthenticated$ | async) === false">
+    <mat-icon>login</mat-icon>
+    <p class="p1">Start Now</p>
+  </button>
+  <button mat-button routerLink="/home"  *ngIf="(auth.isAuthenticated$ | async)">
     <mat-icon>login</mat-icon>
     <p class="p1">Start Now</p>
   </button>
 </div>
 
-<div class="text">
+<!--<div class="text">
   <h1>
     <p class="p2"[@fadeInThenOut1]>
       Welcome to Space!
@@ -27,5 +24,5 @@
     <p class="p3" [@fadeInThenOut4]>You can share your feelings or whatever you have on your mind with space.</p>
     <p class="p3" [@fadeInThenOut5]>A mysterious being might answer you...</p>
   </h1>
-</div>
+</div>-->
 

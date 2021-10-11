@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { trigger, transition, state, animate, style,useAnimation } from '@angular/animations';
+import { trigger, transition, state, animate, style,AnimationEvent } from '@angular/animations';
+import { AuthService } from '@auth0/auth0-angular';
+import {  Router } from '@angular/router';
 
 
 @Component({
@@ -22,10 +24,12 @@ import { trigger, transition, state, animate, style,useAnimation } from '@angula
           marginRight: '50%',
           marginTop: '20%',
           marginBottom: '50%',
+          zIndex: 10
         })
       ),
-      transition('final=>initial', animate('1000ms')),
       transition('initial=>final', animate('1500ms')),
+      transition('final=>initial', animate('1500ms'))
+
     ]),
   ],
 })
@@ -36,7 +40,7 @@ export class HomeComponent implements OnInit {
   currentState3 : any;
   currentState4 : any;
 
-  constructor() {
+  constructor(public auth: AuthService,private route: Router) {
     this.currentState1 = 'initial';
     this.currentState2 = 'initial';
     this.currentState3 = 'initial';
@@ -45,6 +49,16 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  onAnimationEvent(event: AnimationEvent, status:string) {
+    if(status=="done" &&  this.currentState1=="final")
+      this.route.navigate(['/blog']);
+    if(status=="done" && this.currentState2=="final")
+      this.route.navigate(['/blog']);
+    if(status=="done" && this.currentState3=="final")
+      this.route.navigate(['/blog']);
+    if(status=="done" && this.currentState4=="final")
+      this.route.navigate(['/blog']);
+  }
 
   changeStateplanet1() {
     if (

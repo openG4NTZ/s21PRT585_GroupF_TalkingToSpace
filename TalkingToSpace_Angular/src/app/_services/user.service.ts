@@ -2,8 +2,10 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
+import { User } from '../_models/user.model';
+import { UserResult } from '../_models/user-result.model';
 
-const API_URL = 'http://localhost:8080/api/test/';
+const API_URL = 'http://localhost:53980/api/User/';
 
 @Injectable({
   providedIn: 'root'
@@ -11,19 +13,21 @@ const API_URL = 'http://localhost:8080/api/test/';
 export class UserService {
   constructor(private http: HttpClient) { }
 
-  getPublicContent(): Observable<any> {
-    return this.http.get(API_URL + 'all', { responseType: 'text' });
+  async getAllUsers(): Promise<UserResult> {
+    return await this.http.get<UserResult>(API_URL + 'GetAllUsers').toPromise();
   }
 
-  getUserBoard(): Observable<any> {
-    return this.http.get(API_URL + 'user', { responseType: 'text' });
+  async addUser(user: User): Promise<any> {
+    return await this.http.post<any>(API_URL + 'AddUser', user,{})
+    .toPromise();;
   }
 
-  getModeratorBoard(): Observable<any> {
-    return this.http.get(API_URL + 'mod', { responseType: 'text' });
+  updateUser(data:any): Observable<any> {
+    return this.http.post(API_URL + 'UpdateUser', { responseType: 'text' });
   }
 
-  getAdminBoard(): Observable<any> {
-    return this.http.get(API_URL + 'admin', { responseType: 'text' });
+  deleteUser(data:any): Observable<any> {
+    return this.http.post(API_URL + 'DeleteUser', { responseType: 'text' });
   }
+
 }

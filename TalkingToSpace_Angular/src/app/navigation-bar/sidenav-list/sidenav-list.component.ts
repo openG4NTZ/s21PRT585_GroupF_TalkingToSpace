@@ -1,4 +1,6 @@
-import { Component, OnInit, Output, EventEmitter } from '@angular/core';
+import { Component, OnInit, Inject, Output, EventEmitter } from '@angular/core';
+import { AuthService } from '@auth0/auth0-angular';
+import { DOCUMENT } from '@angular/common';
 
 @Component({
   selector: 'app-sidenav-list',
@@ -10,14 +12,32 @@ export class SidenavListComponent implements OnInit {
 
   public userName: string;
   public totalPoints: number;
-  constructor() {
+
+  constructor(
+    public auth: AuthService,
+    @Inject(DOCUMENT) private doc: Document
+  ) {
+
+
     this.userName="G4NTZ";
-    this.totalPoints=999; }
+    this.totalPoints=999;
+  }
+
+
 
   ngOnInit(): void {
-    
+
   }
   public onSidenavClose = () => {
     this.sidenavClose.emit();
+  }
+  signup(): void {
+    this.auth.loginWithRedirect({ screen_hint: 'signup' });
+  }
+  login(): void {
+    this.auth.loginWithRedirect();
+  }
+  logout(): void {
+    this.auth.logout({ returnTo: document.location.origin });
   }
 }

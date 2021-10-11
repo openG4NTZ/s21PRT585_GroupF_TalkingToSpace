@@ -1,5 +1,9 @@
 <! –– <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/moon2.png" alt="">
-<mat-sidenav-container>
+
+<div class="container" *ngIf="auth.isLoading$">
+
+</div>
+<mat-sidenav-container >
   <mat-sidenav #sidenav role="navigation">
     <app-sidenav-list (sidenavClose)="sidenav.close()"></app-sidenav-list>
   </mat-sidenav>
