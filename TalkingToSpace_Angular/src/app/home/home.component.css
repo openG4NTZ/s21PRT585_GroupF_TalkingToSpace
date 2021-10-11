@@ -2,14 +2,13 @@
 .planet1 {
   width: 300px;
   height: 300px;
-  min-height:100px;
-  max-height: 300px;
   border-radius: 100%;
   margin: 3rem;
   background-image: url('../../assets/earth.png');
   background-position: center center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
+
   z-index: 2;
   position: absolute;
   margin-top: 20%;
@@ -35,7 +34,7 @@
   height: 300px;
   border-radius: 100%;
   margin: 3rem;
-  background-image:url('../../assets/saturn.png');
+  background-image:url('../../assets/moon.png');
   background-position: center center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */

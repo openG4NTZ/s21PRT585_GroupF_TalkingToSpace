@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 import { trigger, transition, state, animate, style,AnimationEvent } from '@angular/animations';
 import { AuthService } from '@auth0/auth0-angular';
 import {  Router } from '@angular/router';
@@ -19,7 +19,7 @@ import {  Router } from '@angular/router';
       state(
         'final',
         style({
-          transform: 'scale(20)',
+          transform: 'scale(10)',
           marginLeft: '50%',
           marginRight: '50%',
           marginTop: '20%',
@@ -27,13 +27,16 @@ import {  Router } from '@angular/router';
           zIndex: 10
         })
       ),
-      transition('initial=>final', animate('1500ms')),
-      transition('final=>initial', animate('1500ms'))
+      transition('initial=>final', animate('2000ms'))
 
     ]),
   ],
 })
 export class HomeComponent implements OnInit {
+
+  @Output() public test1 = new EventEmitter();
+
+  public selectedPlanet:string;
 
   currentState1 : any;
   currentState2 : any;
@@ -49,15 +52,32 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
   }
 
+
+  public mytest = () => {
+    this.test1.emit();
+  }
+
   onAnimationEvent(event: AnimationEvent, status:string) {
     if(status=="done" &&  this.currentState1=="final")
+    {
       this.route.navigate(['/blog']);
+
+    }
     if(status=="done" && this.currentState2=="final")
+    {
       this.route.navigate(['/blog']);
+      this.selectedPlanet='sun'
+    }
     if(status=="done" && this.currentState3=="final")
+    {
       this.route.navigate(['/blog']);
+      this.selectedPlanet='moon'
+    }
     if(status=="done" && this.currentState4=="final")
+    {
       this.route.navigate(['/blog']);
+      this.selectedPlanet='jupiter'
+    }
   }
 
   changeStateplanet1() {

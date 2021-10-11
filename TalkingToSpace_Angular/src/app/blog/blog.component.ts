@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit,EventEmitter,Output } from '@angular/core';
 import { AuthService } from '@auth0/auth0-angular';
 
 @Component({
@@ -6,7 +6,10 @@ import { AuthService } from '@auth0/auth0-angular';
   templateUrl: './blog.component.html',
   styleUrls: ['./blog.component.css']
 })
+
 export class BlogComponent implements OnInit {
+
+  @Output() public test = new EventEmitter();
 
   profileJson: string;
 
@@ -15,6 +18,11 @@ export class BlogComponent implements OnInit {
 
   ngOnInit(): void {
 
-
 }
+
+
+public onToggleSidenav = () => {
+  this.test.emit();
+}
+
 }
