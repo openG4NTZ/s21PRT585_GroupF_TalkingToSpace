@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "c577IVVu2HjJ/QioflyCfiQI35Yrr/zn4U5UWFaA8BQGuI89TbOer23bC35v+rFySqry6iZDzBpbkiPU7J3CQA==",
+  "dgSpecHash": "i11AckodaRmBOQJr7oHxFb5xt+/Tz4WYmmkn/rb6/Iv5V4j3WOdPIV+eVO2Kj9ajd9nOA3khZiqJYjK3IBuxpg==",
   "success": true,
   "projectFilePath": "E:\\Github\\PRT585-Development\\s21PRT585_GroupF_TalkingToSpace\\TalkingToTheSpaceAngularNTierApp\\TalkingToTheSpaceAngularNTierApp\\WEB_API.csproj",
   "expectedPackageFiles": [
@@ -52,6 +52,7 @@
     "C:\\Users\\yifan\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
     "C:\\Users\\yifan\\.nuget\\packages\\newtonsoft.json\\10.0.1\\newtonsoft.json.10.0.1.nupkg.sha512",
     "C:\\Users\\yifan\\.nuget\\packages\\newtonsoft.json.bson\\1.0.1\\newtonsoft.json.bson.1.0.1.nupkg.sha512",
+    "C:\\Users\\yifan\\.nuget\\packages\\restsharp\\106.12.0\\restsharp.106.12.0.nupkg.sha512",
     "C:\\Users\\yifan\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\yifan\\.nuget\\packages\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\yifan\\.nuget\\packages\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",

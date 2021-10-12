@@ -281,3 +281,4 @@ E:\Github\PRT585-Development\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAn
 E:\Github\PRT585-Development\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\obj\Debug\net5.0\ref\WEB_API.dll
 E:\Github\PRT585-Development\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\obj\Debug\net5.0\WEB_API.pdb
 E:\Github\PRT585-Development\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\obj\Debug\net5.0\WEB_API.genruntimeconfig.cache
+E:\Github\PRT585-Development\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\RestSharp.dll
