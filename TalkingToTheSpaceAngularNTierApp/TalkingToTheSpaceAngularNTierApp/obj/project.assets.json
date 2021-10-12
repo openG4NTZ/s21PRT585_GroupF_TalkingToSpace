@@ -7888,11 +7888,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Github\\PRT585\\s21PRT585_GroupF_TalkingToSpace\\TalkingToTheSpaceAngularNTierApp\\TalkingToTheSpaceAngularNTierApp\\WEB_API.csproj",
+      "projectUniqueName": "E:\\Github\\PRT585-Development\\s21PRT585_GroupF_TalkingToSpace\\TalkingToTheSpaceAngularNTierApp\\TalkingToTheSpaceAngularNTierApp\\WEB_API.csproj",
       "projectName": "WEB_API",
-      "projectPath": "E:\\Github\\PRT585\\s21PRT585_GroupF_TalkingToSpace\\TalkingToTheSpaceAngularNTierApp\\TalkingToTheSpaceAngularNTierApp\\WEB_API.csproj",
+      "projectPath": "E:\\Github\\PRT585-Development\\s21PRT585_GroupF_TalkingToSpace\\TalkingToTheSpaceAngularNTierApp\\TalkingToTheSpaceAngularNTierApp\\WEB_API.csproj",
       "packagesPath": "C:\\Users\\yifan\\.nuget\\packages\\",
-      "outputPath": "E:\\Github\\PRT585\\s21PRT585_GroupF_TalkingToSpace\\TalkingToTheSpaceAngularNTierApp\\TalkingToTheSpaceAngularNTierApp\\obj\\",
+      "outputPath": "E:\\Github\\PRT585-Development\\s21PRT585_GroupF_TalkingToSpace\\TalkingToTheSpaceAngularNTierApp\\TalkingToTheSpaceAngularNTierApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\yifan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7909,11 +7909,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "E:\\Github\\PRT585\\s21PRT585_GroupF_TalkingToSpace\\TalkingToTheSpaceAngularNTierApp\\DAL\\DAL.csproj": {
-              "projectPath": "E:\\Github\\PRT585\\s21PRT585_GroupF_TalkingToSpace\\TalkingToTheSpaceAngularNTierApp\\DAL\\DAL.csproj"
+            "E:\\Github\\PRT585-Development\\s21PRT585_GroupF_TalkingToSpace\\TalkingToTheSpaceAngularNTierApp\\DAL\\DAL.csproj": {
+              "projectPath": "E:\\Github\\PRT585-Development\\s21PRT585_GroupF_TalkingToSpace\\TalkingToTheSpaceAngularNTierApp\\DAL\\DAL.csproj"
             },
-            "E:\\Github\\PRT585\\s21PRT585_GroupF_TalkingToSpace\\TalkingToTheSpaceAngularNTierApp\\LOGIC\\LOGIC.csproj": {
-              "projectPath": "E:\\Github\\PRT585\\s21PRT585_GroupF_TalkingToSpace\\TalkingToTheSpaceAngularNTierApp\\LOGIC\\LOGIC.csproj"
+            "E:\\Github\\PRT585-Development\\s21PRT585_GroupF_TalkingToSpace\\TalkingToTheSpaceAngularNTierApp\\LOGIC\\LOGIC.csproj": {
+              "projectPath": "E:\\Github\\PRT585-Development\\s21PRT585_GroupF_TalkingToSpace\\TalkingToTheSpaceAngularNTierApp\\LOGIC\\LOGIC.csproj"
             }
           }
         }

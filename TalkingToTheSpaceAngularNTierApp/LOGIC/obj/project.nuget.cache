@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WUUC2Tfbg/dh0s3Stqd5io5ArwSdG9BcWn8ST2f+pbnMSmH69/b2TAnFFLfKeukPNmz1BDEARiZ6a1TNtPGQ2A==",
+  "dgSpecHash": "Yggw9kCN7yAXIxiWtYYQrmyATvJ7bj64S0iL/qMdXCcOKTZDhSjkES20y8cU2rhNv9UaA4BUyfYUc6wZl6CqOg==",
   "success": true,
-  "projectFilePath": "E:\\Github\\PRT585\\s21PRT585_GroupF_TalkingToSpace\\TalkingToTheSpaceAngularNTierApp\\LOGIC\\LOGIC.csproj",
+  "projectFilePath": "E:\\Github\\PRT585-Development\\s21PRT585_GroupF_TalkingToSpace\\TalkingToTheSpaceAngularNTierApp\\LOGIC\\LOGIC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\yifan\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.10\\microsoft.aspnetcore.authentication.jwtbearer.5.0.10.nupkg.sha512",
     "C:\\Users\\yifan\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Github\\PRT585\\s21PRT585_GroupF_TalkingToSpace\\TalkingToTheSpaceAngularNTierApp\\DAL\\DAL.csproj": {}
+    "E:\\Github\\PRT585-Development\\s21PRT585_GroupF_TalkingToSpace\\TalkingToTheSpaceAngularNTierApp\\DAL\\DAL.csproj": {}
   },
   "projects": {
-    "E:\\Github\\PRT585\\s21PRT585_GroupF_TalkingToSpace\\TalkingToTheSpaceAngularNTierApp\\DAL\\DAL.csproj": {
+    "E:\\Github\\PRT585-Development\\s21PRT585_GroupF_TalkingToSpace\\TalkingToTheSpaceAngularNTierApp\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Github\\PRT585\\s21PRT585_GroupF_TalkingToSpace\\TalkingToTheSpaceAngularNTierApp\\DAL\\DAL.csproj",
+        "projectUniqueName": "E:\\Github\\PRT585-Development\\s21PRT585_GroupF_TalkingToSpace\\TalkingToTheSpaceAngularNTierApp\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "E:\\Github\\PRT585\\s21PRT585_GroupF_TalkingToSpace\\TalkingToTheSpaceAngularNTierApp\\DAL\\DAL.csproj",
+        "projectPath": "E:\\Github\\PRT585-Development\\s21PRT585_GroupF_TalkingToSpace\\TalkingToTheSpaceAngularNTierApp\\DAL\\DAL.csproj",
         "packagesPath": "C:\\Users\\yifan\\.nuget\\packages\\",
-        "outputPath": "E:\\Github\\PRT585\\s21PRT585_GroupF_TalkingToSpace\\TalkingToTheSpaceAngularNTierApp\\DAL\\obj\\",
+        "outputPath": "E:\\Github\\PRT585-Development\\s21PRT585_GroupF_TalkingToSpace\\TalkingToTheSpaceAngularNTierApp\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\yifan\\AppData\\Roaming\\NuGet\\NuGet.Config",

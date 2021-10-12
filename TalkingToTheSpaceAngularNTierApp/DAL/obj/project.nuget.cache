@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GWcrA2kGPUpBcvCqU2RZgWbWDeSIpC4ygyC7fybha2AVG1aIph8Dnniw3CboyPryJAihYOac5QOEr6D0rfLrRg==",
+  "dgSpecHash": "EMmmreUSDwhy/KG6zp7smdn99Wp28oTgX3kv1DV1ZrbEgFghxGviiusigza3P7Jjk+MxDr0JT5hmVMDvAXg1hw==",
   "success": true,
-  "projectFilePath": "E:\\Github\\PRT585\\s21PRT585_GroupF_TalkingToSpace\\TalkingToTheSpaceAngularNTierApp\\DAL\\DAL.csproj",
+  "projectFilePath": "E:\\Github\\PRT585-Development\\s21PRT585_GroupF_TalkingToSpace\\TalkingToTheSpaceAngularNTierApp\\DAL\\DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\yifan\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\yifan\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.10\\microsoft.aspnetcore.authentication.jwtbearer.5.0.10.nupkg.sha512",
