@@ -40,6 +40,7 @@ namespace DAL.DataContext
         public DbSet<User> Users { get; set; }
         public DbSet<Message> Messages { get; set; }
         public DbSet<Reply> Replies { get; set; }
+        public DbSet<Point> Points { get; set; }
         //public DbSet<Applicant> Applicants { get; set; }
         //public DbSet<Application> Applications { get; set; }
         //public DbSet<ApplicationStatus> ApplicationStatuses { get; set; }
@@ -58,10 +59,10 @@ namespace DAL.DataContext
             modelBuilder.Entity<User>().Property(ap => ap.User_ID).UseIdentityColumn(1, 1).IsRequired().HasColumnName("user_id");
             //COLUMN SETTINGS
             modelBuilder.Entity<User>().Property(ap => ap.Username).IsRequired(true).IsUnicode().HasMaxLength(100).HasColumnName("username");
-            modelBuilder.Entity<User>().Property(ap => ap.User_Password).IsRequired(true).HasMaxLength(100).HasColumnName("user_password");
+            modelBuilder.Entity<User>().Property(ap => ap.User_Token).IsRequired(true).HasMaxLength(100).HasColumnName("user_token");
             modelBuilder.Entity<User>().Property(ap => ap.User_Profile_Name).IsRequired(true).IsUnicode().HasMaxLength(100).HasColumnName("user_profile_name");
             modelBuilder.Entity<User>().Property(ap => ap.User_Email).IsRequired(true).IsUnicode().HasMaxLength(250).HasColumnName("user_email");
-            modelBuilder.Entity<User>().Property(ap => ap.User_Point).IsRequired(true).HasDefaultValue(0).HasColumnName("user_point");
+            //modelBuilder.Entity<User>().Property(ap => ap.User_Point).IsRequired(true).HasDefaultValue(0).HasColumnName("user_point");
             modelBuilder.Entity<User>().Property(ap => ap.User_Creation_Date).IsRequired(true).HasDefaultValue(DateTime.UtcNow).HasColumnName("user_creation_date");
             //RelationShips
             modelBuilder.Entity<User>()
@@ -74,6 +75,10 @@ namespace DAL.DataContext
                    .WithOne(ap => ap.User)
                    .HasForeignKey(app => app.User_ID)
                    .OnDelete(DeleteBehavior.Restrict);
+            modelBuilder.Entity<User>()
+                .HasOne<Point>(app=>app.Point).WithOne(ap=>ap.User)
+                .HasForeignKey<Point>(app=>app.User_ID)
+                .OnDelete(DeleteBehavior.Restrict);
             #endregion
 
             #region Message
@@ -130,7 +135,24 @@ namespace DAL.DataContext
                  .WithMany(ap => ap.Replies)//Grade is linked to many applications
                  .HasForeignKey(app => app.Message_ID)
                  .OnDelete(DeleteBehavior.NoAction);//Can delete an application.
-            #endregion 
+            #endregion
+
+            #region Point
+            modelBuilder.Entity<Point>().ToTable("point");
+            //Primary Key & Identity Column
+            modelBuilder.Entity<Point>().HasKey(ap => ap.Point_ID);
+            modelBuilder.Entity<Point>().Property(ap => ap.Point_ID).UseIdentityColumn(1, 1).IsRequired().HasColumnName("point_id");
+            //COLUMN SETTINGS
+            modelBuilder.Entity<Point>().Property(ap => ap.Point_Amount).IsRequired(true).HasMaxLength(100).HasDefaultValue(0).HasColumnName("point_amount");
+
+
+            modelBuilder.Entity<Point>()
+            .HasOne<User>(app => app.User)
+            .WithOne(ap => ap.Point)//CAN HAVE MANY APPLICATIONS
+            .HasForeignKey<Point>(app => app.User_ID)
+            .OnDelete(DeleteBehavior.NoAction);//Can delete an application.
+
+            #endregion
         }
     }
 }

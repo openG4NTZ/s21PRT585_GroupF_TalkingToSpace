@@ -33,7 +33,6 @@ E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierAp
 E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\DAL\bin\Debug\net5.0\DAL.dll
 E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\DAL\bin\Debug\net5.0\ref\DAL.dll
 E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\DAL\bin\Debug\net5.0\DAL.pdb
-E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\DAL\obj\Debug\net5.0\DAL.csproj.AssemblyReference.cache
 E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\DAL\obj\Debug\net5.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
 E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\DAL\obj\Debug\net5.0\DAL.AssemblyInfoInputs.cache
 E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\DAL\obj\Debug\net5.0\DAL.AssemblyInfo.cs
@@ -42,3 +41,4 @@ E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierAp
 E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\DAL\obj\Debug\net5.0\ref\DAL.dll
 E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\DAL\obj\Debug\net5.0\DAL.pdb
 E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\DAL\obj\Debug\net5.0\DAL.genruntimeconfig.cache
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\DAL\obj\Debug\net5.0\DAL.csproj.AssemblyReference.cache
