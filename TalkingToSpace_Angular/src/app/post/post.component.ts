@@ -1,41 +1,37 @@
 import { Component, OnInit } from '@angular/core';import { UserService} from '../_services/user.service'
 import {User} from '../_models/user.model'
 import { UserResult } from '../_models/user-result.model';
-import {Message} from '../_models/message.model'
-import { MessageResult } from '../_models/message-result.model';
-import {Reply} from '../_models/reply.model'
-import { ReplyResult } from '../_models/reply-result.model';
-import { MessageService } from '../_services/message.service';
 import {  Router } from '@angular/router';
 import { AuthService } from '@auth0/auth0-angular';
 
 @Component({
-  selector: 'app-blog',
-  templateUrl: './blog.component.html',
-  styleUrls: ['./blog.component.css']
+  selector: 'app-post',
+  templateUrl: './post.component.html',
+  styleUrls: ['./post.component.css']
 })
-export class BlogComponent implements OnInit {
+export class PostComponent implements OnInit {
 
-  currentMessage: Message = new Message();
-  messages: MessageResult = new MessageResult();
-  messageList: Message[];
+  message:string;
+  currentUser: User = new User();
+  users: UserResult = new UserResult();
+  usersList: User[];
 
   load: string = 'no-show';
   disabled: string = '';
 
-  constructor(private MessageService: MessageService, private route: Router, public auth: AuthService) {}
+  constructor(private UserService: UserService, private route: Router, public auth: AuthService) {}
 
   async ngOnInit(): Promise<void> {
     //GET TH GRADES ON LOAD
-    this.messages.message_set = [];
-    var t = await this.MessageService
-      .getAllMessages()
+    this.users.result_set = [];
+    var t = await this.UserService
+      .getAllUsers()
       .then((data) => {
         if (data.success) {
 
         console.warn(data);
-          this.messages = data;
-          this.messageList = data.message_set;
+          this.users = data;
+          this.usersList = data.result_set;
         } else {
           alert(data.backendMessage);
         }
@@ -46,17 +42,18 @@ export class BlogComponent implements OnInit {
 
   }
 
-  async updateMessage() {
+  async signup() {
     let result = new UserResult();
     this.disabled = 'disabled';
     this.load = '';
-    console.warn(this.currentMessage);
-    await this.MessageService
-      .updateMessage(this.currentMessage)
+    this.currentUser.user_point=1;
+    console.warn(this.currentUser);
+    await this.UserService
+      .addUser(this.currentUser)
       .then(
         (data) => {
         result.success = data.success;
-        result.backendMessage = data.backendMessage;
+        result.backendMessage = data.userMessage;
         if (result.success) {
           alert('Register Successfully!');
         } else {

@@ -1,8 +1,8 @@
-import { Iresult } from "../interfaces/iresult";
+import { Iresult } from "../_interfaces/iresult"
 import { Message } from "./message.model";
 
 export class MessageResult implements Iresult {
     success: boolean;
-    userMessage: string;
+    backendMessage: string;
     message_set: Message[] = [];
 }

@@ -3,6 +3,6 @@ import { Iresult } from "../_interfaces/iresult";
 
 export class UserResult implements Iresult {
     success: boolean;
-    userMessage: string;
+    backendMessage: string;
     result_set:User[]=[];
 }
