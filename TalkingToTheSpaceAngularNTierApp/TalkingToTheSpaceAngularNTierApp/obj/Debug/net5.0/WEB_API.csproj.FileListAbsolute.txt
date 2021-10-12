@@ -207,3 +207,4 @@ E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierAp
 E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\obj\Debug\net5.0\WEB_API.csproj.CopyComplete
 E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\obj\Debug\net5.0\WEB_API.genruntimeconfig.cache
 E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\obj\Debug\net5.0\WEB_API.MvcApplicationPartsAssemblyInfo.cs
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
