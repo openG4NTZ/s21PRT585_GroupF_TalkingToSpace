@@ -6,6 +6,7 @@ import { MessageResult } from '../_models/message-result.model';
 import {Reply} from '../_models/reply.model'
 import { ReplyResult } from '../_models/reply-result.model';
 import { MessageService } from '../_services/message.service';
+import { ReplyService } from '../_services/reply.service';
 import {  Router } from '@angular/router';
 import { AuthService } from '@auth0/auth0-angular';
 
@@ -16,49 +17,86 @@ import { AuthService } from '@auth0/auth0-angular';
 })
 export class BlogComponent implements OnInit {
 
+  reply_available:number;
+  update_reply_available1:number;
+  update_reply_available2:number;
+  user_reply_content:string;
+
   currentMessage: Message = new Message();
   messages: MessageResult = new MessageResult();
   messageList: Message[];
 
-  load: string = 'no-show';
-  disabled: string = '';
+  currentReply: Reply = new Reply();
+  replys: ReplyResult = new ReplyResult();
+  replyList: Reply[];
 
-  constructor(private MessageService: MessageService, private route: Router, public auth: AuthService) {}
+  constructor(private MessageService: MessageService, private ReplyService: ReplyService, private route: Router, public auth: AuthService) {
+    this.reply_available=0;
+    this.update_reply_available1=0;
+    this.update_reply_available2=0;
+    this.user_reply_content="";
+  }
 
   async ngOnInit(): Promise<void> {
     //GET TH GRADES ON LOAD
-    this.messages.message_set = [];
+    this.messages.result_set = [];
     var t = await this.MessageService
       .getAllMessages()
-      .then((data) => {
-        if (data.success) {
+      .then((message_data) => {
 
-        console.warn(data);
-          this.messages = data;
-          this.messageList = data.message_set;
+        if (message_data.success) {
+
+          this.messages = message_data;
+          this.messageList = message_data.result_set;
         } else {
-          alert(data.backendMessage);
+          alert(message_data.backendMessage);
         }
       })
       .catch((error) => {
         alert(error);
       });
 
+
+      this.replys.result_set = [];
+
+      var x = await this.ReplyService
+      .getAllReplys()
+      .then((replydata) => {
+
+        if (replydata.success) {
+
+          this.replys = replydata;
+          this.replyList = replydata.result_set;
+        } else {
+          alert(replydata.backendMessage);
+        }
+      })
+      .catch((error) => {
+        alert(error);
+      });
+
+
+
   }
 
   async updateMessage() {
-    let result = new UserResult();
-    this.disabled = 'disabled';
-    this.load = '';
+    let result = new MessageResult();
+    this.currentMessage.message_id=3;
+    this.currentMessage.message_content='I love you';
+    this.currentMessage.message_status='private';
+    this.currentMessage.message_modified_date=new Date();
+    this.currentMessage.message_sent_date=new Date();
+    this.currentMessage.user_id=2;
+
     console.warn(this.currentMessage);
     await this.MessageService
       .updateMessage(this.currentMessage)
       .then(
-        (data) => {
-        result.success = data.success;
-        result.backendMessage = data.backendMessage;
+        (updatedata) => {
+        result.success = updatedata.success;
+        result.backendMessage = updatedata.u;
         if (result.success) {
-          alert('Register Successfully!');
+          alert('Updated Successfully!');
         } else {
           alert(result.backendMessage);
         }
@@ -67,12 +105,131 @@ export class BlogComponent implements OnInit {
       )
       .catch((error) => {
         alert(
-          error.error.userMessage +
+          error.error.backendMessage +
             ' Please make sure you have provided all the values'
         );
       });
-    this.disabled = '';
-    this.load = 'no-show';
+  }
+
+  async deleteMessage() {
+    let result = new MessageResult();
+
+    this.currentMessage.message_id=3;
+    this.currentMessage.user_id=2;
+    await this.MessageService
+      .deleteMessage(this.currentMessage)
+      .then(
+        (data) => {
+        result.success = data.success;
+        result.backendMessage = data.userMessage;
+        if (result.success) {
+          alert('Deleted Successfully!');
+        } else {
+          alert(result.backendMessage);
+        }
+        //this.currentUser = new User();
+      }
+      )
+      .catch((error) => {
+        alert(
+          error.error.backendMessage +
+            ' Please make sure you have provided all the values'
+        );
+      });
+  }
+
+  async addReply(message_id:number, message_content:string) {
+    let result = new ReplyResult();
+    this.currentReply.message_id=message_id;
+    this.currentReply.reply_status='private';
+    this.currentReply.reply_content=message_content;
+    this.currentReply.user_id=2;
+    await this.ReplyService
+      .addReply(this.currentReply)
+      .then(
+        (data) => {
+        result.success = data.success;
+        result.backendMessage = data.userMessage;
+        if (result.success) {
+          alert('Comment Successfully Added!');
+        } else {
+          alert(result.backendMessage);
+        }
+        //this.currentUser = new User();
+      }
+      )
+      .catch((error) => {
+        alert(
+          error.error.backendMessage +
+            ' Please make sure you have provided all the values'
+        );
+      });
+  }
+
+  async updateReply(message_id:number,reply_id:number,message_content:string) {
+    let result = new ReplyResult();
+    this.currentReply.reply_id=reply_id;
+    this.currentReply.message_id=message_id;
+    this.currentReply.reply_status='private';
+    this.currentReply.reply_content=message_content;
+    this.currentReply.user_id=2;
+    await this.ReplyService
+      .updateReply(this.currentReply)
+      .then(
+        (data) => {
+        result.success = data.success;
+        result.backendMessage = data.userMessage;
+        if (result.success) {
+          alert('Updated Successfully!');
+        } else {
+          alert(result.backendMessage);
+        }
+        //this.currentUser = new User();
+      }
+      )
+      .catch((error) => {
+        alert(
+          error.error.backendMessage +
+            ' Please make sure you have provided all the values'
+        );
+      });
+  }
+
+  async deleteReply(message_id:number,reply_id:number) {
+    let result = new ReplyResult();
+    this.currentReply.reply_id=reply_id;
+    this.currentReply.message_id=message_id;
+    this.currentReply.reply_status='private';
+    this.currentReply.reply_content='';
+    this.currentReply.user_id=2;
+    await this.ReplyService
+      .deleteReply(this.currentReply)
+      .then(
+        (data) => {
+        result.success = data.success;
+        result.backendMessage = data.userMessage;
+        if (result.success) {
+          alert('Deleted Successfully!');
+        } else {
+          alert(result.backendMessage);
+        }
+        //this.currentUser = new User();
+      }
+      )
+      .catch((error) => {
+        alert(
+          error.error.backendMessage +
+            ' Please make sure you have provided all the values'
+        );
+      });
+  }
+
+  public ToggleComment = (value:number) => {
+    this.reply_available=value;
+  }
+  public ToggleUpdateComment = (value1:number,value2:number) => {
+    this.update_reply_available1=value1;
+    this.update_reply_available2=value2;
   }
 
 }

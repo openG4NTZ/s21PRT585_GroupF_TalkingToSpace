@@ -3,7 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { Message } from '../_models/message.model';
 import { MessageResult } from '../_models/message-result.model';
-const API_URL = 'http://localhost:53980/api/Reply/';
+const API_URL = 'http://localhost:53980/api/Message/';
 
 @Injectable({
   providedIn: 'root'

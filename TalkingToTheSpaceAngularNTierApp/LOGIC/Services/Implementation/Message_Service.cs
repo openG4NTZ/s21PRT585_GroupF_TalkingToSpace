@@ -144,7 +144,7 @@ namespace LOGIC.Services.Implementation
             return result;
         }
 
-        public async Task<Generic_ResultSet<Message_ResultSet>> UpdateMessage(Int64 message_id, string message_content, string message_status, DateTime message_modified_date, DateTime message_sent_date)
+        public async Task<Generic_ResultSet<Message_ResultSet>> UpdateMessage(Int64 message_id, string message_content, string message_status, DateTime message_modified_date, DateTime message_sent_date, Int64 user_id)
         {
             Generic_ResultSet<Message_ResultSet> result = new Generic_ResultSet<Message_ResultSet>();
             try
@@ -156,7 +156,8 @@ namespace LOGIC.Services.Implementation
                     Message_Content = message_content,
                     Message_Status = message_status,
                     Message_Modified_Date = DateTime.UtcNow,
-                    Message_Sent_Date = message_sent_date
+                    Message_Sent_Date = message_sent_date,
+                    User_ID = user_id
                     //Message_ModifiedDate = DateTime.UtcNow 
                 };
 
