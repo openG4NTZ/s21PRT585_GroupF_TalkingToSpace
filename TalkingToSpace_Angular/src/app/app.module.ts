@@ -11,7 +11,6 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatListModule } from '@angular/material/list';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
@@ -26,6 +25,7 @@ import { AdminComponent } from './board/admin/admin.component';
 import { UserComponent } from './board/user/user.component';
 import { StartComponent } from './start/start.component';
 import { PostComponent } from './post/post.component';
+
 
 @NgModule({
   declarations: [
@@ -60,7 +60,7 @@ import { PostComponent } from './post/post.component';
       domain: 'dev-om53k5ag.us.auth0.com',
       clientId: 'OYA8X8BqtsNturdYBJo6Mi7zPhCaFLs1'
 
-    }),
+    })
   ],
   exports: [
     MatToolbarModule,
@@ -73,4 +73,5 @@ import { PostComponent } from './post/post.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}
