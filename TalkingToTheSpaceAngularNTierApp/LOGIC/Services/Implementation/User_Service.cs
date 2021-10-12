@@ -30,10 +30,10 @@ namespace LOGIC.Services.Implementation
                     {
                         user_id = u.User_ID,
                         username = u.Username,
-                        user_password = u.User_Password,
+                        user_token = u.User_Token,
                         user_profile_name = u.User_Profile_Name,
-                        user_email = u.User_Email,
-                        user_point = u.User_Point
+                        user_email = u.User_Email
+                        //user_point = u.User_Point
                     }) ;
                 });
 
@@ -67,10 +67,10 @@ namespace LOGIC.Services.Implementation
                 {
                     user_id = User.User_ID,
                     username = User.Username,
-                    user_password = User.User_Password,
+                    user_token = User.User_Token,
                     user_profile_name = User.User_Profile_Name,
                     user_email = User.User_Email,
-                    user_point = User.User_Point,
+                    //user_point = User.User_Point,
                     user_creation_date = User.User_Creation_Date
                 };
 
@@ -91,7 +91,7 @@ namespace LOGIC.Services.Implementation
         }
 
 
-        public async Task<Generic_ResultSet<User_ResultSet>> AddUser(string username, string user_password, string user_profile_name, string user_email, Int64 user_point)
+        public async Task<Generic_ResultSet<User_ResultSet>> AddUser(string username, string user_token, string user_profile_name, string user_email)
         {
             Generic_ResultSet<User_ResultSet> result = new Generic_ResultSet<User_ResultSet>();
             try
@@ -100,10 +100,10 @@ namespace LOGIC.Services.Implementation
                 User User = new User
                 {
                     Username = username,
-                    User_Password= user_password,
+                    User_Token= user_token,
                     User_Profile_Name = user_profile_name,
                     User_Email = user_email,
-                    User_Point= user_point
+                    //User_Point= user_point
                 };
 
                 //ADD User TO DB
@@ -114,10 +114,10 @@ namespace LOGIC.Services.Implementation
                 {
                     user_id = User.User_ID,
                     username = User.Username,
-                    user_password = User.User_Password,
+                    user_token = User.User_Token,
                     user_profile_name = User.User_Profile_Name,
                     user_email = User.User_Email,
-                    user_point = User.User_Point,
+                    //user_point = User.User_Point,
                     user_creation_date = User.User_Creation_Date
                 };
 
@@ -138,7 +138,7 @@ namespace LOGIC.Services.Implementation
             return result;
         }
 
-        public async Task<Generic_ResultSet<User_ResultSet>> UpdateUser(Int64 user_id, string username, string user_password, string user_profile_name, string user_email, Int64 user_point)
+        public async Task<Generic_ResultSet<User_ResultSet>> UpdateUser(Int64 user_id, string username, string user_token, string user_profile_name, string user_email)
         {
             Generic_ResultSet<User_ResultSet> result = new Generic_ResultSet<User_ResultSet>();
             try
@@ -148,10 +148,10 @@ namespace LOGIC.Services.Implementation
                 {
                     User_ID = user_id,
                     Username = username,
-                    User_Password = user_password,
+                    User_Token = user_token,
                     User_Profile_Name = user_profile_name,
-                    User_Email = user_email,
-                    User_Point = user_point
+                    User_Email = user_email
+                    //User_Point = user_point
                     //User_ModifiedDate = DateTime.UtcNow 
                 };
 
@@ -163,10 +163,10 @@ namespace LOGIC.Services.Implementation
                 {
                     user_id = User.User_ID,
                     username = User.Username,
-                    user_password = User.User_Password,
+                    user_token = User.User_Token,
                     user_profile_name = User.User_Profile_Name,
                     user_email = User.User_Email,
-                    user_point = User.User_Point,
+                    //user_point = User.User_Point,
                     user_creation_date = User.User_Creation_Date
                 };
 

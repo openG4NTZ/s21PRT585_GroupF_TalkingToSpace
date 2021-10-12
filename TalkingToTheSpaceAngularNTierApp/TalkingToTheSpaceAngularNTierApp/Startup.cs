@@ -38,6 +38,7 @@ namespace TalkingToTheSpaceAngularNTierApp
             services.AddScoped<IUser_Service, User_Service>();
             services.AddScoped<IMessage_Service, Message_Service>();
             services.AddScoped<IReply_Service, Reply_Service>();
+            services.AddScoped<IPoint_Service, Point_Service>();
             #endregion
 
             #region CORS

@@ -4,14 +4,16 @@ using DAL.DataContext;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace DAL.Migrations
 {
     [DbContext(typeof(DatabaseContext))]
-    partial class DatabaseContextModelSnapshot : ModelSnapshot
+    [Migration("20211012060849_UserEntityV2")]
+    partial class UserEntityV2
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -38,7 +40,7 @@ namespace DAL.Migrations
                     b.Property<DateTime>("Message_Creation_Date")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2021, 10, 12, 7, 6, 17, 654, DateTimeKind.Utc).AddTicks(5291))
+                        .HasDefaultValue(new DateTime(2021, 10, 12, 6, 8, 48, 921, DateTimeKind.Utc).AddTicks(2548))
                         .HasColumnName("message_creation_date");
 
                     b.Property<DateTime>("Message_Modified_Date")
@@ -69,35 +71,6 @@ namespace DAL.Migrations
                     b.ToTable("message");
                 });
 
-            modelBuilder.Entity("DAL.Entities.Point", b =>
-                {
-                    b.Property<long>("Point_ID")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("bigint")
-                        .HasColumnName("point_id")
-                        .HasAnnotation("SqlServer:IdentityIncrement", 1)
-                        .HasAnnotation("SqlServer:IdentitySeed", 1)
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("Point_Amount")
-                        .IsRequired()
-                        .ValueGeneratedOnAdd()
-                        .HasMaxLength(100)
-                        .HasColumnType("nvarchar(100)")
-                        .HasDefaultValue("0")
-                        .HasColumnName("point_amount");
-
-                    b.Property<long>("User_ID")
-                        .HasColumnType("bigint");
-
-                    b.HasKey("Point_ID");
-
-                    b.HasIndex("User_ID")
-                        .IsUnique();
-
-                    b.ToTable("point");
-                });
-
             modelBuilder.Entity("DAL.Entities.Reply", b =>
                 {
                     b.Property<long>("Reply_ID")
@@ -120,7 +93,7 @@ namespace DAL.Migrations
                     b.Property<DateTime>("Reply_Creation_Date")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2021, 10, 12, 7, 6, 17, 655, DateTimeKind.Utc).AddTicks(8821))
+                        .HasDefaultValue(new DateTime(2021, 10, 12, 6, 8, 48, 924, DateTimeKind.Utc).AddTicks(3346))
                         .HasColumnName("reply_creation_date");
 
                     b.Property<DateTime>("Reply_Modified_Date")
@@ -166,7 +139,7 @@ namespace DAL.Migrations
                     b.Property<DateTime>("User_Creation_Date")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2021, 10, 12, 7, 6, 17, 639, DateTimeKind.Utc).AddTicks(1034))
+                        .HasDefaultValue(new DateTime(2021, 10, 12, 6, 8, 48, 904, DateTimeKind.Utc).AddTicks(8149))
                         .HasColumnName("user_creation_date");
 
                     b.Property<string>("User_Email")
@@ -175,6 +148,12 @@ namespace DAL.Migrations
                         .IsUnicode(true)
                         .HasColumnType("nvarchar(250)")
                         .HasColumnName("user_email");
+
+                    b.Property<long>("User_Point")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint")
+                        .HasDefaultValue(0L)
+                        .HasColumnName("user_point");
 
                     b.Property<string>("User_Profile_Name")
                         .IsRequired()
@@ -212,17 +191,6 @@ namespace DAL.Migrations
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("DAL.Entities.Point", b =>
-                {
-                    b.HasOne("DAL.Entities.User", "User")
-                        .WithOne("Point")
-                        .HasForeignKey("DAL.Entities.Point", "User_ID")
-                        .OnDelete(DeleteBehavior.NoAction)
-                        .IsRequired();
-
-                    b.Navigation("User");
-                });
-
             modelBuilder.Entity("DAL.Entities.Reply", b =>
                 {
                     b.HasOne("DAL.Entities.Message", "Message")
@@ -250,8 +218,6 @@ namespace DAL.Migrations
             modelBuilder.Entity("DAL.Entities.User", b =>
                 {
                     b.Navigation("Messages");
-
-                    b.Navigation("Point");
 
                     b.Navigation("Replies");
                 });

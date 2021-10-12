@@ -6,27 +6,27 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using WEB_API.Models.User;
+using WEB_API.Models.Point;
 
 namespace WEB_API.Controllers
 {
     [EnableCors("angular")]
     [Route("api/[controller]")]
     [ApiController]
-    public class UserController : ControllerBase
+    public class PointController : ControllerBase
     {
-        private IUser_Service _User_Service;
+        private IPoint_Service _Point_Service;
 
-        public UserController(IUser_Service User_Service)
+        public PointController(IPoint_Service Point_Service)
         {
-            _User_Service = User_Service;
+            _Point_Service = Point_Service;
         }
 
         [HttpPost]
         [Route("[action]")]
-        public async Task<IActionResult> AddUser(User_Pass_Object user)
+        public async Task<IActionResult> AddPoint(string point_amount, Int64 user_id)
         {
-            var result = await _User_Service.AddUser(user.username, user.user_token, user.user_profile_name, user.user_email);
+            var result = await _Point_Service.AddPoint(point_amount, user_id);
             switch (result.success)
             {
                 case true:
@@ -39,9 +39,9 @@ namespace WEB_API.Controllers
 
         [HttpGet]
         [Route("[action]")]
-        public async Task<IActionResult> GetAllUsers()
+        public async Task<IActionResult> GetAllPoints()
         {
-            var result = await _User_Service.GetAllUsers();
+            var result = await _Point_Service.GetAllPoints();
             switch (result.success)
             {
                 case true:
@@ -54,9 +54,9 @@ namespace WEB_API.Controllers
 
         [HttpPost]
         [Route("[action]")]
-        public async Task<IActionResult> UpdateUser(User_Pass_Object user)
+        public async Task<IActionResult> UpdatePoint(Int64 point_id, string point_amount, Int64 user_id)
         {
-            var result = await _User_Service.UpdateUser(user.user_id, user.username, user.user_token, user.user_profile_name, user.user_email);
+            var result = await _Point_Service.UpdatePoint(point_id, point_amount, user_id);
             switch (result.success)
             {
                 case true:
@@ -69,9 +69,9 @@ namespace WEB_API.Controllers
 
         [HttpPost]
         [Route("[action]")]
-        public async Task<IActionResult> DeleteUser(Int64 user_id)
+        public async Task<IActionResult> DeletePoint(Point_Pass_Object point)
         {
-            var result = await _User_Service.DeleteUser(user_id);
+            var result = await _Point_Service.DeletePoint(point.point_id);
             switch (result.success)
             {
                 case true:
