@@ -1,12 +1,13 @@
-import { Component, OnInit } from '@angular/core';
 import { trigger, transition, state, animate, style } from '@angular/animations';
-
+import { Component, OnInit, Inject, Output, EventEmitter } from '@angular/core';
+import { AuthService } from '@auth0/auth0-angular';
+import { DOCUMENT } from '@angular/common';
 
 @Component({
   selector: 'app-start',
   templateUrl: './start.component.html',
   styleUrls: ['./start.component.css'],
-  animations: [
+  /*animations: [
     trigger('fadeInThenOut1', [
       state('*', style({ opacity: 0 })),
       transition('* => *', [
@@ -47,17 +48,23 @@ import { trigger, transition, state, animate, style } from '@angular/animations'
         animate('500ms 3s ease-out', style({ opacity: 0 })),
       ]),
     ])
-  ],
+  ],*/
 
 })
 export class StartComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    public auth: AuthService,
+    @Inject(DOCUMENT) private doc: Document
+  ) {
 
+  }
   ngOnInit(): void {
 
   }
 
-
+  signup(): void {
+    this.auth.loginWithRedirect({ screen_hint: 'signup' });
+  }
 
 }
