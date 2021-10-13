@@ -24,12 +24,9 @@ namespace WEB_API.Controllers
 
         [HttpPost]
         [Route("[action]")]
-        // serkan delete public async Task<IActionResult> AddMessage(string message_content, string message_status, DateTime message_sent_date, Int64 user_id)
-        // serkan delete {
-        // serkan deletevar result = await _Message_Service.AddMessage(message_content, message_status, message_sent_date, user_id);
-        public async Task<IActionResult> AddMessage(Message_Pass_Object message)
-         {
-            var result = await _Message_Service.AddMessage(message.message_content, message.message_status, message.message_sent_date, message.user_id);
+        public async Task<IActionResult> AddMessage(string message_content, string message_status, DateTime message_sent_date, Int64 user_id)
+        {
+            var result = await _Message_Service.AddMessage(message_content, message_status, message_sent_date, user_id);
             switch (result.success)
             {
                 case true:
@@ -57,13 +54,9 @@ namespace WEB_API.Controllers
 
         [HttpPost]
         [Route("[action]")]
-        // serkan delete public async Task<IActionResult> UpdateMessage(Int64 message_id, string message_content, string message_status, DateTime message_modified_date, DateTime message_sent_date, Int64 user_id)
-        // serkan delete   {
-        // serkan delete  var result = await _Message_Service.UpdateMessage(message_id, message_content, message_status, message_modified_date, message_sent_date,user_id);
-
-        public async Task<IActionResult> UpdateMessage(Message_Pass_Object message)
+        public async Task<IActionResult> UpdateMessage(Int64 message_id, string message_content, string message_status, DateTime message_modified_date, DateTime message_sent_date, Int64 user_id)
         {
-            var result = await _Message_Service.UpdateMessage(message.message_id, message.message_content, message.message_status, message.message_modified_date, message.message_sent_date, message.user_id);
+            var result = await _Message_Service.UpdateMessage(message_id, message_content, message_status, message_modified_date, message_sent_date,user_id);
             switch (result.success)
             {
                 case true:

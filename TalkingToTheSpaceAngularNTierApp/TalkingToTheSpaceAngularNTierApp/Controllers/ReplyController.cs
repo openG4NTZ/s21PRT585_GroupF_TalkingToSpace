@@ -24,13 +24,9 @@ namespace WEB_API.Controllers
 
         [HttpPost]
         [Route("[action]")]
-        // serkan delete public async Task<IActionResult> AddReply(string reply_content, string reply_status, DateTime reply_sent_date, Int64 user_id, Int64 message_id)
-        //{
-        // serkan delete var result = await _Reply_Service.AddReply(reply_content, reply_status, reply_sent_date, user_id, message_id);
-
-        public async Task<IActionResult> AddReply(Reply_Pass_Object reply)  // serkan add
+        public async Task<IActionResult> AddReply(string reply_content, string reply_status, DateTime reply_sent_date, Int64 user_id, Int64 message_id)
         {
-            var result = await _Reply_Service.AddReply(reply.reply_content, reply.reply_status, reply.reply_sent_date, reply.user_id, reply.message_id); // serkan add
+            var result = await _Reply_Service.AddReply(reply_content, reply_status, reply_sent_date, user_id, message_id);
             switch (result.success)
             {
                 case true:
