@@ -1,5 +1,7 @@
 using LOGIC.Services.Implementation;
 using LOGIC.Services.Interfaces;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -7,11 +9,14 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Claims;
 using System.Threading.Tasks;
+using WEB_API;
 
 namespace TalkingToTheSpaceAngularNTierApp
 {
@@ -38,6 +43,10 @@ namespace TalkingToTheSpaceAngularNTierApp
             services.AddScoped<IUser_Service, User_Service>();
             services.AddScoped<IMessage_Service, Message_Service>();
             services.AddScoped<IReply_Service, Reply_Service>();
+            services.AddScoped<IPoint_Service, Point_Service>();
+            services.AddScoped<IActivity_Service, Activity_Service>();
+            services.AddScoped<IPhoto_Service, Photo_Service>();
+            services.AddScoped<IPost_Service, Post_Service>();
             #endregion
 
             #region CORS
@@ -62,14 +71,38 @@ namespace TalkingToTheSpaceAngularNTierApp
                     {
                         builder.WithOrigins(corsUrls)
                                             .AllowAnyHeader()
-                                            .AllowAnyMethod();
+                                            .AllowAnyMethod()
+                                            .AllowCredentials();
                     });
             });
+            #endregion
+
+            #region Auth0
+            string domain = $"https://{Configuration["Auth0:Domain"]}/";
+            services
+                .AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+                .AddJwtBearer(options =>
+                {
+                    options.Authority = domain;
+                    options.Audience = Configuration["Auth0:Audience"];
+            // If the access token does not have a `sub` claim, `User.Identity.Name` will be `null`. Map it to a different claim by setting the NameClaimType below.
+            options.TokenValidationParameters = new TokenValidationParameters
+                    {
+                        NameClaimType = ClaimTypes.NameIdentifier
+                    };
+                });
+
+            services.AddAuthorization(options =>
+            {
+                options.AddPolicy("read:messages", policy => policy.Requirements.Add(new HasScopeRequirement("read:messages", domain)));
+            });
+
+            services.AddSingleton<IAuthorizationHandler, HasScopeHandler>();
             #endregion
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ILoggerFactory loggerFactory)
         {
             if (env.IsDevelopment())
             {
@@ -80,12 +113,17 @@ namespace TalkingToTheSpaceAngularNTierApp
 
             app.UseRouting();
             app.UseCors();
+            app.UseAuthentication();
             app.UseAuthorization();
+            loggerFactory.AddLog4Net();
+
+
 
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
             });
+
         }
 
     }

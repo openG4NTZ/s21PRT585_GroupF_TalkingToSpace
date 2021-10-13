@@ -135,3 +135,152 @@ E:\Github\TalkingToTheSpaceNTierApp\TalkingToTheSpaceAngularNTierApp\TalkingToTh
 E:\Github\TalkingToTheSpaceNTierApp\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\System.Web.Http.dll
 E:\Github\TalkingToTheSpaceNTierApp\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\System.Web.Http.Cors.dll
 E:\Github\TalkingToTheSpaceNTierApp\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\obj\Debug\net5.0\WEB_API.csproj.AssemblyReference.cache
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\obj\Debug\net5.0\WEB_API.GeneratedMSBuildEditorConfig.editorconfig
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\obj\Debug\net5.0\WEB_API.AssemblyInfoInputs.cache
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\obj\Debug\net5.0\WEB_API.AssemblyInfo.cs
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\obj\Debug\net5.0\WEB_API.csproj.CoreCompileInputs.cache
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\obj\Debug\net5.0\WEB_API.MvcApplicationPartsAssemblyInfo.cache
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\obj\Debug\net5.0\WEB_API.dll
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\obj\Debug\net5.0\ref\WEB_API.dll
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\obj\Debug\net5.0\WEB_API.pdb
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\appsettings.Development.json
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\appsettings.json
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\WEB_API.exe
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\WEB_API.deps.json
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\WEB_API.runtimeconfig.json
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\WEB_API.runtimeconfig.dev.json
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\WEB_API.dll
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\ref\WEB_API.dll
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\WEB_API.pdb
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\Humanizer.dll
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\System.Web.Cors.dll
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\System.Net.Http.Formatting.dll
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\System.Web.Http.dll
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\System.Web.Http.Cors.dll
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.Design.dll
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\Microsoft.OpenApi.dll
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\Newtonsoft.Json.dll
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\System.Runtime.Caching.dll
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\DAL.dll
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\LOGIC.dll
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\DAL.pdb
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\LOGIC.pdb
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\obj\Debug\net5.0\staticwebassets\WEB_API.StaticWebAssets.Manifest.cache
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\obj\Debug\net5.0\staticwebassets\WEB_API.StaticWebAssets.xml
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\obj\Debug\net5.0\scopedcss\bundle\WEB_API.styles.css
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\obj\Debug\net5.0\WEB_API.RazorTargetAssemblyInfo.cache
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\obj\Debug\net5.0\WEB_API.csproj.CopyComplete
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\obj\Debug\net5.0\WEB_API.genruntimeconfig.cache
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\obj\Debug\net5.0\WEB_API.MvcApplicationPartsAssemblyInfo.cs
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\appsettings.json
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\WEB_API.exe
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\WEB_API.deps.json
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\WEB_API.runtimeconfig.json
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\WEB_API.runtimeconfig.dev.json
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\WEB_API.dll
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\ref\WEB_API.dll
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\WEB_API.pdb
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\Humanizer.dll
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\System.Web.Cors.dll
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\System.Net.Http.Formatting.dll
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\System.Web.Http.dll
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\System.Web.Http.Cors.dll
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.Design.dll
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\DAL.dll
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\LOGIC.dll
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\DAL.pdb
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\LOGIC.pdb
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\obj\Debug\net5.0\WEB_API.csproj.AssemblyReference.cache
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\obj\Debug\net5.0\WEB_API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\obj\Debug\net5.0\WEB_API.AssemblyInfoInputs.cache
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\obj\Debug\net5.0\WEB_API.AssemblyInfo.cs
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\obj\Debug\net5.0\WEB_API.csproj.CoreCompileInputs.cache
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\obj\Debug\net5.0\WEB_API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\obj\Debug\net5.0\WEB_API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\obj\Debug\net5.0\staticwebassets\WEB_API.StaticWebAssets.Manifest.cache
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\obj\Debug\net5.0\staticwebassets\WEB_API.StaticWebAssets.xml
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\obj\Debug\net5.0\scopedcss\bundle\WEB_API.styles.css
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\obj\Debug\net5.0\WEB_API.RazorTargetAssemblyInfo.cache
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\obj\Debug\net5.0\WEB_API.csproj.CopyComplete
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\obj\Debug\net5.0\WEB_API.dll
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\obj\Debug\net5.0\ref\WEB_API.dll
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\obj\Debug\net5.0\WEB_API.pdb
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\obj\Debug\net5.0\WEB_API.genruntimeconfig.cache
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\log4net.config
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\log4net.dll
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\Microsoft.Extensions.Logging.Log4Net.AspNetCore.dll

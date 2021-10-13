@@ -25,3 +25,33 @@ E:\Github\TalkingToTheSpaceNTierApp\TalkingToTheSpaceAngularNTierApp\LOGIC\bin\D
 E:\Github\TalkingToTheSpaceNTierApp\TalkingToTheSpaceAngularNTierApp\LOGIC\bin\Debug\net5.0\DAL.dll
 E:\Github\TalkingToTheSpaceNTierApp\TalkingToTheSpaceAngularNTierApp\LOGIC\bin\Debug\net5.0\DAL.pdb
 E:\Github\TalkingToTheSpaceNTierApp\TalkingToTheSpaceAngularNTierApp\LOGIC\obj\Debug\net5.0\LOGIC.csproj.CopyComplete
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\LOGIC\obj\Debug\net5.0\LOGIC.csproj.AssemblyReference.cache
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\LOGIC\obj\Debug\net5.0\LOGIC.GeneratedMSBuildEditorConfig.editorconfig
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\LOGIC\obj\Debug\net5.0\LOGIC.AssemblyInfoInputs.cache
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\LOGIC\obj\Debug\net5.0\LOGIC.AssemblyInfo.cs
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\LOGIC\obj\Debug\net5.0\LOGIC.csproj.CoreCompileInputs.cache
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\LOGIC\obj\Debug\net5.0\LOGIC.dll
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\LOGIC\obj\Debug\net5.0\ref\LOGIC.dll
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\LOGIC\obj\Debug\net5.0\LOGIC.pdb
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\LOGIC\bin\Debug\net5.0\LOGIC.deps.json
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\LOGIC\bin\Debug\net5.0\LOGIC.dll
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\LOGIC\bin\Debug\net5.0\ref\LOGIC.dll
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\LOGIC\bin\Debug\net5.0\LOGIC.pdb
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\LOGIC\bin\Debug\net5.0\DAL.dll
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\LOGIC\bin\Debug\net5.0\DAL.pdb
+E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\LOGIC\obj\Debug\net5.0\LOGIC.csproj.CopyComplete
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\LOGIC\bin\Debug\net5.0\LOGIC.deps.json
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\LOGIC\bin\Debug\net5.0\LOGIC.dll
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\LOGIC\bin\Debug\net5.0\ref\LOGIC.dll
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\LOGIC\bin\Debug\net5.0\LOGIC.pdb
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\LOGIC\bin\Debug\net5.0\DAL.dll
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\LOGIC\bin\Debug\net5.0\DAL.pdb
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\LOGIC\obj\Debug\net5.0\LOGIC.csproj.AssemblyReference.cache
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\LOGIC\obj\Debug\net5.0\LOGIC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\LOGIC\obj\Debug\net5.0\LOGIC.AssemblyInfoInputs.cache
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\LOGIC\obj\Debug\net5.0\LOGIC.AssemblyInfo.cs
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\LOGIC\obj\Debug\net5.0\LOGIC.csproj.CoreCompileInputs.cache
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\LOGIC\obj\Debug\net5.0\LOGIC.csproj.CopyComplete
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\LOGIC\obj\Debug\net5.0\LOGIC.dll
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\LOGIC\obj\Debug\net5.0\ref\LOGIC.dll
+C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\LOGIC\obj\Debug\net5.0\LOGIC.pdb

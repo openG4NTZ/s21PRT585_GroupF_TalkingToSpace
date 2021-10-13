@@ -22,7 +22,7 @@ namespace LOGIC.Services.Interfaces
 
         /* Create/Edit/Delete methods */
         Task<Generic_ResultSet<Message_ResultSet>> AddMessage(string message_content, string message_status,  DateTime message_sent_date, Int64 user_id);
-        Task<Generic_ResultSet<Message_ResultSet>> UpdateMessage(Int64 message_id, string message_content, string message_status, DateTime message_modified_date, DateTime message_sent_date);
+        Task<Generic_ResultSet<Message_ResultSet>> UpdateMessage(Int64 message_id, string message_content, string message_status, DateTime message_modified_date, DateTime message_sent_date, Int64 user_id);
         Task<Generic_ResultSet<bool>> DeleteMessage(Int64 message_id);
 
 
