@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7Or7pUXeZLO4260zo7f9O1ss6YTFhK9uCfRJYgwI9EEoU4inmdXOj6g79Q1qWeG8S4DzL/H8RPSkCSjO4tSzpQ==",
+  "dgSpecHash": "gHGsWBRdTDJqMOssafap7wcVkYrXKExXkJBHc1bXX4yVCB1XPzsAnt2M1OGd02BIjWyjTKIxbPpF5Eyf1/1g2Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\G4NTZ\\OneDrive\\Masaüstü\\s21PRT585_GroupF_TalkingToSpace-c9711fea4766c5a89ac3cbc0264168dc9f22590a\\TalkingToTheSpaceAngularNTierApp\\TalkingToTheSpaceAngularNTierApp\\WEB_API.csproj",
+  "projectFilePath": "C:\\Users\\G4NTZ\\Documents\\GitHub\\s21PRT585_GroupF_TalkingToSpace\\TalkingToTheSpaceAngularNTierApp\\TalkingToTheSpaceAngularNTierApp\\WEB_API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\G4NTZ\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\G4NTZ\\.nuget\\packages\\microsoft.aspnet.cors\\5.2.7\\microsoft.aspnet.cors.5.2.7.nupkg.sha512",

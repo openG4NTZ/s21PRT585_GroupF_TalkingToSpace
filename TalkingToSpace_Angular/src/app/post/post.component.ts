@@ -144,14 +144,8 @@ export class PostComponent implements OnInit {
     let result = new MessageResult();
 
     this.currentMessage.message_id=message_id;
-<<<<<<< HEAD
-<<<<<<< HEAD
     this.currentMessage.message_content="";
     this.currentMessage.message_status='private';
-=======
->>>>>>> parent of c9711fe (Merge branch 'Development' of https://github.com/openG4NTZ/s21PRT585_GroupF_TalkingToSpace into Development)
-=======
->>>>>>> parent of c9711fe (Merge branch 'Development' of https://github.com/openG4NTZ/s21PRT585_GroupF_TalkingToSpace into Development)
     this.currentMessage.user_id=2;
     await this.MessageService
       .deleteMessage(this.currentMessage)
