@@ -30,7 +30,7 @@
           <div class="comment" *ngIf="reply.message_id == message.message_id">
             <p class="p3"> {{ reply.reply_content }} </p>
             <div class="btn">
-              <div *ngIf="update_reply_available2==0">
+              <div class="btn2" *ngIf="update_reply_available2==0">
                 <button mat-raised-button (click)="ToggleUpdateComment(message.message_id,reply.reply_id)" > Update Comment</button>
                 <div class="divider"> </div>
                 <button mat-raised-button (click)="deleteReply(message.message_id,reply.reply_id)" > Delete Comment</button>

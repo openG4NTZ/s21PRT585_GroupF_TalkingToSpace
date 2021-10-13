@@ -13,7 +13,7 @@
       <br>
       <textarea name="comment" id="comment" rows="10" tabindex="4" [(ngModel)] = "user_message_content"  required="required"></textarea>
       <br>
-      <input name="submit" type="submit" value="Submit comment" (click)="addMessage(user_message_content)"/>
+      <input name="submit" type="submit" value="Submit Message" (click)="addMessage(user_message_content)"/>
       <button (click)="ToggleComment(0)" >Close</button>
     </form>
   </div>
@@ -23,7 +23,7 @@
       <br>
       <p class="p2"> {{ message.message_content }} </p>
       <div class="btn">
-        <div *ngIf="update_reply_available==0">
+        <div class= "btn2" *ngIf="update_reply_available==0">
           <button mat-raised-button (click)="ToggleUpdateComment(message.message_id)" > Update Message</button>
           <div class="divider"> </div>
           <button mat-raised-button (click)="deleteMessage(message.message_id)" > Delete Message</button>

@@ -3,9 +3,8 @@
 
   <div class="buttons">
     <button (click)="filterResults(underFifty)" >Grade under < 50</button>
-  <button (click)="filterResults(aboveFifty)" >Grade above > 50</button>
-
-  <button (click)="filterResults(grade100)" >Grade = 100</button>
+    <button (click)="filterResults(aboveFifty)" >Grade above > 50</button>
+    <button (click)="filterResults(grade100)" >Grade = 100</button>
   </div>
   <label for="search">Name:</label>
     <input #search (keyup)="searchFunc(search.value)" id="search" type="text" placeholder="Search" >
@@ -14,6 +13,9 @@
     <li>Name: {{student.name}}<br>
       Gender: {{student.gender}}<br>
       Grade: {{student.grade}}</li>
+      Tests
+      <br>
+      test
     </ul>
     </div>
   </div>
