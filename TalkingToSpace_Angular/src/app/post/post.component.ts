@@ -118,8 +118,6 @@ export class PostComponent implements OnInit {
     this.currentMessage.message_id=message_id;
     this.currentMessage.message_content="";
     this.currentMessage.message_status='private';
-    this.currentMessage.message_modified_date=new Date();
-    this.currentMessage.message_sent_date=new Date();
     this.currentMessage.user_id=2;
     await this.MessageService
       .deleteMessage(this.currentMessage)
