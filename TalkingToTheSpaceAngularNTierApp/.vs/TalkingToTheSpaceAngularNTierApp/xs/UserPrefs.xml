@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{A5FFB55B-3736-4D2B-92B0-22F5ECDDFBE9}|TalkingToTheSpaceAngularNTierApp">
+  <MonoDevelop.Ide.ItemProperties.WEB__API PreferredExecutionTarget="/Applications/Firefox.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../.nuget/packages/exceptionless.log4net/4.6.2/readme.txt">
+    <Files>
+      <File FileName="TalkingToTheSpaceAngularNTierApp/Startup.cs" Line="54" Column="1" />
+      <File FileName="../../../../.nuget/packages/exceptionless.aspnetcore/4.6.2/readme.txt" Line="42" Column="40" />
+      <File FileName="TalkingToTheSpaceAngularNTierApp/Program.cs" Line="32" Column="18" />
+      <File FileName="../../../../.nuget/packages/exceptionless.log4net/4.6.2/readme.txt" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TalkingToTheSpaceAngularNTierApp" expanded="True">
+            <Node name="DAL" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" selected="True" />
+              </Node>
+            </Node>
+            <Node name="WEB_API" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

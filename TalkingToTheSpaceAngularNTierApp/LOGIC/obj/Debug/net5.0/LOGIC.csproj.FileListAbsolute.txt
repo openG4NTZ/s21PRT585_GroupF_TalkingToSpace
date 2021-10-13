@@ -1,57 +1,72 @@
-E:\Github\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\LOGIC\bin\Debug\net5.0\LOGIC.deps.json
-E:\Github\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\LOGIC\bin\Debug\net5.0\LOGIC.dll
-E:\Github\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\LOGIC\bin\Debug\net5.0\ref\LOGIC.dll
-E:\Github\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\LOGIC\bin\Debug\net5.0\LOGIC.pdb
-E:\Github\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\LOGIC\obj\Debug\net5.0\LOGIC.csproj.AssemblyReference.cache
-E:\Github\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\LOGIC\obj\Debug\net5.0\LOGIC.GeneratedMSBuildEditorConfig.editorconfig
-E:\Github\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\LOGIC\obj\Debug\net5.0\LOGIC.AssemblyInfoInputs.cache
-E:\Github\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\LOGIC\obj\Debug\net5.0\LOGIC.AssemblyInfo.cs
-E:\Github\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\LOGIC\obj\Debug\net5.0\LOGIC.csproj.CoreCompileInputs.cache
-E:\Github\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\LOGIC\obj\Debug\net5.0\LOGIC.dll
-E:\Github\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\LOGIC\obj\Debug\net5.0\ref\LOGIC.dll
-E:\Github\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\LOGIC\obj\Debug\net5.0\LOGIC.pdb
-E:\Github\TalkingToTheSpaceNTierApp\TalkingToTheSpaceAngularNTierApp\LOGIC\obj\Debug\net5.0\LOGIC.csproj.AssemblyReference.cache
-E:\Github\TalkingToTheSpaceNTierApp\TalkingToTheSpaceAngularNTierApp\LOGIC\obj\Debug\net5.0\LOGIC.GeneratedMSBuildEditorConfig.editorconfig
-E:\Github\TalkingToTheSpaceNTierApp\TalkingToTheSpaceAngularNTierApp\LOGIC\obj\Debug\net5.0\LOGIC.AssemblyInfoInputs.cache
-E:\Github\TalkingToTheSpaceNTierApp\TalkingToTheSpaceAngularNTierApp\LOGIC\obj\Debug\net5.0\LOGIC.AssemblyInfo.cs
-E:\Github\TalkingToTheSpaceNTierApp\TalkingToTheSpaceAngularNTierApp\LOGIC\obj\Debug\net5.0\LOGIC.csproj.CoreCompileInputs.cache
-E:\Github\TalkingToTheSpaceNTierApp\TalkingToTheSpaceAngularNTierApp\LOGIC\obj\Debug\net5.0\LOGIC.dll
-E:\Github\TalkingToTheSpaceNTierApp\TalkingToTheSpaceAngularNTierApp\LOGIC\obj\Debug\net5.0\ref\LOGIC.dll
-E:\Github\TalkingToTheSpaceNTierApp\TalkingToTheSpaceAngularNTierApp\LOGIC\obj\Debug\net5.0\LOGIC.pdb
-E:\Github\TalkingToTheSpaceNTierApp\TalkingToTheSpaceAngularNTierApp\LOGIC\bin\Debug\net5.0\LOGIC.deps.json
-E:\Github\TalkingToTheSpaceNTierApp\TalkingToTheSpaceAngularNTierApp\LOGIC\bin\Debug\net5.0\LOGIC.dll
-E:\Github\TalkingToTheSpaceNTierApp\TalkingToTheSpaceAngularNTierApp\LOGIC\bin\Debug\net5.0\ref\LOGIC.dll
-E:\Github\TalkingToTheSpaceNTierApp\TalkingToTheSpaceAngularNTierApp\LOGIC\bin\Debug\net5.0\LOGIC.pdb
-E:\Github\TalkingToTheSpaceNTierApp\TalkingToTheSpaceAngularNTierApp\LOGIC\bin\Debug\net5.0\DAL.dll
-E:\Github\TalkingToTheSpaceNTierApp\TalkingToTheSpaceAngularNTierApp\LOGIC\bin\Debug\net5.0\DAL.pdb
-E:\Github\TalkingToTheSpaceNTierApp\TalkingToTheSpaceAngularNTierApp\LOGIC\obj\Debug\net5.0\LOGIC.csproj.CopyComplete
-E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\LOGIC\obj\Debug\net5.0\LOGIC.csproj.AssemblyReference.cache
-E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\LOGIC\obj\Debug\net5.0\LOGIC.GeneratedMSBuildEditorConfig.editorconfig
-E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\LOGIC\obj\Debug\net5.0\LOGIC.AssemblyInfoInputs.cache
-E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\LOGIC\obj\Debug\net5.0\LOGIC.AssemblyInfo.cs
-E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\LOGIC\obj\Debug\net5.0\LOGIC.csproj.CoreCompileInputs.cache
-E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\LOGIC\obj\Debug\net5.0\LOGIC.dll
-E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\LOGIC\obj\Debug\net5.0\ref\LOGIC.dll
-E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\LOGIC\obj\Debug\net5.0\LOGIC.pdb
-E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\LOGIC\bin\Debug\net5.0\LOGIC.deps.json
-E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\LOGIC\bin\Debug\net5.0\LOGIC.dll
-E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\LOGIC\bin\Debug\net5.0\ref\LOGIC.dll
-E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\LOGIC\bin\Debug\net5.0\LOGIC.pdb
-E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\LOGIC\bin\Debug\net5.0\DAL.dll
-E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\LOGIC\bin\Debug\net5.0\DAL.pdb
-E:\Github\PRT585\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\LOGIC\obj\Debug\net5.0\LOGIC.csproj.CopyComplete
-C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\LOGIC\bin\Debug\net5.0\LOGIC.deps.json
-C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\LOGIC\bin\Debug\net5.0\LOGIC.dll
-C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\LOGIC\bin\Debug\net5.0\ref\LOGIC.dll
-C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\LOGIC\bin\Debug\net5.0\LOGIC.pdb
-C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\LOGIC\bin\Debug\net5.0\DAL.dll
-C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\LOGIC\bin\Debug\net5.0\DAL.pdb
-C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\LOGIC\obj\Debug\net5.0\LOGIC.csproj.AssemblyReference.cache
-C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\LOGIC\obj\Debug\net5.0\LOGIC.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\LOGIC\obj\Debug\net5.0\LOGIC.AssemblyInfoInputs.cache
-C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\LOGIC\obj\Debug\net5.0\LOGIC.AssemblyInfo.cs
-C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\LOGIC\obj\Debug\net5.0\LOGIC.csproj.CoreCompileInputs.cache
-C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\LOGIC\obj\Debug\net5.0\LOGIC.csproj.CopyComplete
-C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\LOGIC\obj\Debug\net5.0\LOGIC.dll
-C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\LOGIC\obj\Debug\net5.0\ref\LOGIC.dll
-C:\Users\Alan Truong\Desktop\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\LOGIC\obj\Debug\net5.0\LOGIC.pdb
+E:/Github/TalkingToTheSpaceAngularNTierApp/TalkingToTheSpaceAngularNTierApp/LOGIC/bin/Debug/net5.0/LOGIC.deps.json
+E:/Github/TalkingToTheSpaceAngularNTierApp/TalkingToTheSpaceAngularNTierApp/LOGIC/bin/Debug/net5.0/LOGIC.dll
+E:/Github/TalkingToTheSpaceAngularNTierApp/TalkingToTheSpaceAngularNTierApp/LOGIC/bin/Debug/net5.0/ref/LOGIC.dll
+E:/Github/TalkingToTheSpaceAngularNTierApp/TalkingToTheSpaceAngularNTierApp/LOGIC/bin/Debug/net5.0/LOGIC.pdb
+E:/Github/TalkingToTheSpaceAngularNTierApp/TalkingToTheSpaceAngularNTierApp/LOGIC/obj/Debug/net5.0/LOGIC.csproj.AssemblyReference.cache
+E:/Github/TalkingToTheSpaceAngularNTierApp/TalkingToTheSpaceAngularNTierApp/LOGIC/obj/Debug/net5.0/LOGIC.GeneratedMSBuildEditorConfig.editorconfig
+E:/Github/TalkingToTheSpaceAngularNTierApp/TalkingToTheSpaceAngularNTierApp/LOGIC/obj/Debug/net5.0/LOGIC.AssemblyInfoInputs.cache
+E:/Github/TalkingToTheSpaceAngularNTierApp/TalkingToTheSpaceAngularNTierApp/LOGIC/obj/Debug/net5.0/LOGIC.AssemblyInfo.cs
+E:/Github/TalkingToTheSpaceAngularNTierApp/TalkingToTheSpaceAngularNTierApp/LOGIC/obj/Debug/net5.0/LOGIC.csproj.CoreCompileInputs.cache
+E:/Github/TalkingToTheSpaceAngularNTierApp/TalkingToTheSpaceAngularNTierApp/LOGIC/obj/Debug/net5.0/LOGIC.dll
+E:/Github/TalkingToTheSpaceAngularNTierApp/TalkingToTheSpaceAngularNTierApp/LOGIC/obj/Debug/net5.0/ref/LOGIC.dll
+E:/Github/TalkingToTheSpaceAngularNTierApp/TalkingToTheSpaceAngularNTierApp/LOGIC/obj/Debug/net5.0/LOGIC.pdb
+E:/Github/TalkingToTheSpaceNTierApp/TalkingToTheSpaceAngularNTierApp/LOGIC/obj/Debug/net5.0/LOGIC.csproj.AssemblyReference.cache
+E:/Github/TalkingToTheSpaceNTierApp/TalkingToTheSpaceAngularNTierApp/LOGIC/obj/Debug/net5.0/LOGIC.GeneratedMSBuildEditorConfig.editorconfig
+E:/Github/TalkingToTheSpaceNTierApp/TalkingToTheSpaceAngularNTierApp/LOGIC/obj/Debug/net5.0/LOGIC.AssemblyInfoInputs.cache
+E:/Github/TalkingToTheSpaceNTierApp/TalkingToTheSpaceAngularNTierApp/LOGIC/obj/Debug/net5.0/LOGIC.AssemblyInfo.cs
+E:/Github/TalkingToTheSpaceNTierApp/TalkingToTheSpaceAngularNTierApp/LOGIC/obj/Debug/net5.0/LOGIC.csproj.CoreCompileInputs.cache
+E:/Github/TalkingToTheSpaceNTierApp/TalkingToTheSpaceAngularNTierApp/LOGIC/obj/Debug/net5.0/LOGIC.dll
+E:/Github/TalkingToTheSpaceNTierApp/TalkingToTheSpaceAngularNTierApp/LOGIC/obj/Debug/net5.0/ref/LOGIC.dll
+E:/Github/TalkingToTheSpaceNTierApp/TalkingToTheSpaceAngularNTierApp/LOGIC/obj/Debug/net5.0/LOGIC.pdb
+E:/Github/TalkingToTheSpaceNTierApp/TalkingToTheSpaceAngularNTierApp/LOGIC/bin/Debug/net5.0/LOGIC.deps.json
+E:/Github/TalkingToTheSpaceNTierApp/TalkingToTheSpaceAngularNTierApp/LOGIC/bin/Debug/net5.0/LOGIC.dll
+E:/Github/TalkingToTheSpaceNTierApp/TalkingToTheSpaceAngularNTierApp/LOGIC/bin/Debug/net5.0/ref/LOGIC.dll
+E:/Github/TalkingToTheSpaceNTierApp/TalkingToTheSpaceAngularNTierApp/LOGIC/bin/Debug/net5.0/LOGIC.pdb
+E:/Github/TalkingToTheSpaceNTierApp/TalkingToTheSpaceAngularNTierApp/LOGIC/bin/Debug/net5.0/DAL.dll
+E:/Github/TalkingToTheSpaceNTierApp/TalkingToTheSpaceAngularNTierApp/LOGIC/bin/Debug/net5.0/DAL.pdb
+E:/Github/TalkingToTheSpaceNTierApp/TalkingToTheSpaceAngularNTierApp/LOGIC/obj/Debug/net5.0/LOGIC.csproj.CopyComplete
+E:/Github/PRT585/s21PRT585_GroupF_TalkingToSpace/TalkingToTheSpaceAngularNTierApp/LOGIC/obj/Debug/net5.0/LOGIC.csproj.AssemblyReference.cache
+E:/Github/PRT585/s21PRT585_GroupF_TalkingToSpace/TalkingToTheSpaceAngularNTierApp/LOGIC/obj/Debug/net5.0/LOGIC.GeneratedMSBuildEditorConfig.editorconfig
+E:/Github/PRT585/s21PRT585_GroupF_TalkingToSpace/TalkingToTheSpaceAngularNTierApp/LOGIC/obj/Debug/net5.0/LOGIC.AssemblyInfoInputs.cache
+E:/Github/PRT585/s21PRT585_GroupF_TalkingToSpace/TalkingToTheSpaceAngularNTierApp/LOGIC/obj/Debug/net5.0/LOGIC.AssemblyInfo.cs
+E:/Github/PRT585/s21PRT585_GroupF_TalkingToSpace/TalkingToTheSpaceAngularNTierApp/LOGIC/obj/Debug/net5.0/LOGIC.csproj.CoreCompileInputs.cache
+E:/Github/PRT585/s21PRT585_GroupF_TalkingToSpace/TalkingToTheSpaceAngularNTierApp/LOGIC/obj/Debug/net5.0/LOGIC.dll
+E:/Github/PRT585/s21PRT585_GroupF_TalkingToSpace/TalkingToTheSpaceAngularNTierApp/LOGIC/obj/Debug/net5.0/ref/LOGIC.dll
+E:/Github/PRT585/s21PRT585_GroupF_TalkingToSpace/TalkingToTheSpaceAngularNTierApp/LOGIC/obj/Debug/net5.0/LOGIC.pdb
+E:/Github/PRT585/s21PRT585_GroupF_TalkingToSpace/TalkingToTheSpaceAngularNTierApp/LOGIC/bin/Debug/net5.0/LOGIC.deps.json
+E:/Github/PRT585/s21PRT585_GroupF_TalkingToSpace/TalkingToTheSpaceAngularNTierApp/LOGIC/bin/Debug/net5.0/LOGIC.dll
+E:/Github/PRT585/s21PRT585_GroupF_TalkingToSpace/TalkingToTheSpaceAngularNTierApp/LOGIC/bin/Debug/net5.0/ref/LOGIC.dll
+E:/Github/PRT585/s21PRT585_GroupF_TalkingToSpace/TalkingToTheSpaceAngularNTierApp/LOGIC/bin/Debug/net5.0/LOGIC.pdb
+E:/Github/PRT585/s21PRT585_GroupF_TalkingToSpace/TalkingToTheSpaceAngularNTierApp/LOGIC/bin/Debug/net5.0/DAL.dll
+E:/Github/PRT585/s21PRT585_GroupF_TalkingToSpace/TalkingToTheSpaceAngularNTierApp/LOGIC/bin/Debug/net5.0/DAL.pdb
+E:/Github/PRT585/s21PRT585_GroupF_TalkingToSpace/TalkingToTheSpaceAngularNTierApp/LOGIC/obj/Debug/net5.0/LOGIC.csproj.CopyComplete
+C:/Users/Alan Truong/Desktop/s21PRT585_GroupF_TalkingToSpace/TalkingToTheSpaceAngularNTierApp/LOGIC/bin/Debug/net5.0/LOGIC.deps.json
+C:/Users/Alan Truong/Desktop/s21PRT585_GroupF_TalkingToSpace/TalkingToTheSpaceAngularNTierApp/LOGIC/bin/Debug/net5.0/LOGIC.dll
+C:/Users/Alan Truong/Desktop/s21PRT585_GroupF_TalkingToSpace/TalkingToTheSpaceAngularNTierApp/LOGIC/bin/Debug/net5.0/ref/LOGIC.dll
+C:/Users/Alan Truong/Desktop/s21PRT585_GroupF_TalkingToSpace/TalkingToTheSpaceAngularNTierApp/LOGIC/bin/Debug/net5.0/LOGIC.pdb
+C:/Users/Alan Truong/Desktop/s21PRT585_GroupF_TalkingToSpace/TalkingToTheSpaceAngularNTierApp/LOGIC/bin/Debug/net5.0/DAL.dll
+C:/Users/Alan Truong/Desktop/s21PRT585_GroupF_TalkingToSpace/TalkingToTheSpaceAngularNTierApp/LOGIC/bin/Debug/net5.0/DAL.pdb
+C:/Users/Alan Truong/Desktop/s21PRT585_GroupF_TalkingToSpace/TalkingToTheSpaceAngularNTierApp/LOGIC/obj/Debug/net5.0/LOGIC.csproj.AssemblyReference.cache
+C:/Users/Alan Truong/Desktop/s21PRT585_GroupF_TalkingToSpace/TalkingToTheSpaceAngularNTierApp/LOGIC/obj/Debug/net5.0/LOGIC.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Alan Truong/Desktop/s21PRT585_GroupF_TalkingToSpace/TalkingToTheSpaceAngularNTierApp/LOGIC/obj/Debug/net5.0/LOGIC.AssemblyInfoInputs.cache
+C:/Users/Alan Truong/Desktop/s21PRT585_GroupF_TalkingToSpace/TalkingToTheSpaceAngularNTierApp/LOGIC/obj/Debug/net5.0/LOGIC.AssemblyInfo.cs
+C:/Users/Alan Truong/Desktop/s21PRT585_GroupF_TalkingToSpace/TalkingToTheSpaceAngularNTierApp/LOGIC/obj/Debug/net5.0/LOGIC.csproj.CoreCompileInputs.cache
+C:/Users/Alan Truong/Desktop/s21PRT585_GroupF_TalkingToSpace/TalkingToTheSpaceAngularNTierApp/LOGIC/obj/Debug/net5.0/LOGIC.csproj.CopyComplete
+C:/Users/Alan Truong/Desktop/s21PRT585_GroupF_TalkingToSpace/TalkingToTheSpaceAngularNTierApp/LOGIC/obj/Debug/net5.0/LOGIC.dll
+C:/Users/Alan Truong/Desktop/s21PRT585_GroupF_TalkingToSpace/TalkingToTheSpaceAngularNTierApp/LOGIC/obj/Debug/net5.0/ref/LOGIC.dll
+C:/Users/Alan Truong/Desktop/s21PRT585_GroupF_TalkingToSpace/TalkingToTheSpaceAngularNTierApp/LOGIC/obj/Debug/net5.0/LOGIC.pdb
+/Users/milk/Documents/GitHub/s21PRT585_GroupF_TalkingToSpace/TalkingToTheSpaceAngularNTierApp/LOGIC/bin/Debug/net5.0/LOGIC.deps.json
+/Users/milk/Documents/GitHub/s21PRT585_GroupF_TalkingToSpace/TalkingToTheSpaceAngularNTierApp/LOGIC/bin/Debug/net5.0/LOGIC.dll
+/Users/milk/Documents/GitHub/s21PRT585_GroupF_TalkingToSpace/TalkingToTheSpaceAngularNTierApp/LOGIC/bin/Debug/net5.0/ref/LOGIC.dll
+/Users/milk/Documents/GitHub/s21PRT585_GroupF_TalkingToSpace/TalkingToTheSpaceAngularNTierApp/LOGIC/bin/Debug/net5.0/LOGIC.pdb
+/Users/milk/Documents/GitHub/s21PRT585_GroupF_TalkingToSpace/TalkingToTheSpaceAngularNTierApp/LOGIC/bin/Debug/net5.0/DAL.dll
+/Users/milk/Documents/GitHub/s21PRT585_GroupF_TalkingToSpace/TalkingToTheSpaceAngularNTierApp/LOGIC/bin/Debug/net5.0/DAL.pdb
+/Users/milk/Documents/GitHub/s21PRT585_GroupF_TalkingToSpace/TalkingToTheSpaceAngularNTierApp/LOGIC/obj/Debug/net5.0/LOGIC.csproj.AssemblyReference.cache
+/Users/milk/Documents/GitHub/s21PRT585_GroupF_TalkingToSpace/TalkingToTheSpaceAngularNTierApp/LOGIC/obj/Debug/net5.0/LOGIC.GeneratedMSBuildEditorConfig.editorconfig
+/Users/milk/Documents/GitHub/s21PRT585_GroupF_TalkingToSpace/TalkingToTheSpaceAngularNTierApp/LOGIC/obj/Debug/net5.0/LOGIC.AssemblyInfoInputs.cache
+/Users/milk/Documents/GitHub/s21PRT585_GroupF_TalkingToSpace/TalkingToTheSpaceAngularNTierApp/LOGIC/obj/Debug/net5.0/LOGIC.AssemblyInfo.cs
+/Users/milk/Documents/GitHub/s21PRT585_GroupF_TalkingToSpace/TalkingToTheSpaceAngularNTierApp/LOGIC/obj/Debug/net5.0/LOGIC.csproj.CoreCompileInputs.cache
+/Users/milk/Documents/GitHub/s21PRT585_GroupF_TalkingToSpace/TalkingToTheSpaceAngularNTierApp/LOGIC/obj/Debug/net5.0/LOGIC.csproj.CopyComplete
+/Users/milk/Documents/GitHub/s21PRT585_GroupF_TalkingToSpace/TalkingToTheSpaceAngularNTierApp/LOGIC/obj/Debug/net5.0/LOGIC.dll
+/Users/milk/Documents/GitHub/s21PRT585_GroupF_TalkingToSpace/TalkingToTheSpaceAngularNTierApp/LOGIC/obj/Debug/net5.0/ref/LOGIC.dll
+/Users/milk/Documents/GitHub/s21PRT585_GroupF_TalkingToSpace/TalkingToTheSpaceAngularNTierApp/LOGIC/obj/Debug/net5.0/LOGIC.pdb

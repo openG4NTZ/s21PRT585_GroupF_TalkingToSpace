@@ -17,6 +17,7 @@ using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
 using WEB_API;
+using Exceptionless;
 
 namespace TalkingToTheSpaceAngularNTierApp
 {
@@ -48,6 +49,8 @@ namespace TalkingToTheSpaceAngularNTierApp
             services.AddScoped<IPhoto_Service, Photo_Service>();
             services.AddScoped<IPost_Service, Post_Service>();
             #endregion
+
+            services.AddExceptionless("5o5fDhM5y2vxznhdf0eG3leDQN8LEXXM6IL2nbQs");
 
             #region CORS
 
@@ -116,6 +119,7 @@ namespace TalkingToTheSpaceAngularNTierApp
             app.UseAuthentication();
             app.UseAuthorization();
             loggerFactory.AddLog4Net();
+            app.UseExceptionless();
 
 
 

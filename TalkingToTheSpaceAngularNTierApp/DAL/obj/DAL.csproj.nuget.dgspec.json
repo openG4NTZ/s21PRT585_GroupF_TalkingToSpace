@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alan Truong\\Desktop\\s21PRT585_GroupF_TalkingToSpace\\TalkingToTheSpaceAngularNTierApp\\DAL\\DAL.csproj": {}
+    "/Users/milk/Documents/GitHub/s21PRT585_GroupF_TalkingToSpace/TalkingToTheSpaceAngularNTierApp/DAL/DAL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alan Truong\\Desktop\\s21PRT585_GroupF_TalkingToSpace\\TalkingToTheSpaceAngularNTierApp\\DAL\\DAL.csproj": {
+    "/Users/milk/Documents/GitHub/s21PRT585_GroupF_TalkingToSpace/TalkingToTheSpaceAngularNTierApp/DAL/DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alan Truong\\Desktop\\s21PRT585_GroupF_TalkingToSpace\\TalkingToTheSpaceAngularNTierApp\\DAL\\DAL.csproj",
+        "projectUniqueName": "/Users/milk/Documents/GitHub/s21PRT585_GroupF_TalkingToSpace/TalkingToTheSpaceAngularNTierApp/DAL/DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "C:\\Users\\Alan Truong\\Desktop\\s21PRT585_GroupF_TalkingToSpace\\TalkingToTheSpaceAngularNTierApp\\DAL\\DAL.csproj",
-        "packagesPath": "C:\\Users\\Alan Truong\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alan Truong\\Desktop\\s21PRT585_GroupF_TalkingToSpace\\TalkingToTheSpaceAngularNTierApp\\DAL\\obj\\",
+        "projectPath": "/Users/milk/Documents/GitHub/s21PRT585_GroupF_TalkingToSpace/TalkingToTheSpaceAngularNTierApp/DAL/DAL.csproj",
+        "packagesPath": "/Users/milk/.nuget/packages/",
+        "outputPath": "/Users/milk/Documents/GitHub/s21PRT585_GroupF_TalkingToSpace/TalkingToTheSpaceAngularNTierApp/DAL/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Alan Truong\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/milk/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -40,6 +38,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Exceptionless.AspNetCore": {
+              "target": "Package",
+              "version": "[4.6.2, )"
+            },
+            "Exceptionless.Log4net": {
+              "target": "Package",
+              "version": "[4.6.2, )"
+            },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[5.0.10, )"
@@ -96,7 +102,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.401/RuntimeIdentifierGraph.json"
         }
       }
     }
