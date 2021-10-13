@@ -146,7 +146,7 @@ namespace LOGIC.Services.Implementation
             return result;
         }
 
-        public async Task<Generic_ResultSet<Reply_ResultSet>> UpdateReply(Int64 reply_id, string reply_content, string reply_status, DateTime reply_modified_date, DateTime reply_sent_date)
+        public async Task<Generic_ResultSet<Reply_ResultSet>> UpdateReply(Int64 reply_id, string reply_content, string reply_status, DateTime reply_modified_date, DateTime reply_sent_date, Int64 user_id, Int64 message_id)
         {
             Generic_ResultSet<Reply_ResultSet> result = new Generic_ResultSet<Reply_ResultSet>();
             try
@@ -158,7 +158,10 @@ namespace LOGIC.Services.Implementation
                     Reply_Content = reply_content,
                     Reply_Status = reply_status,
                     Reply_Modified_Date = DateTime.UtcNow,
-                    Reply_Sent_Date = reply_sent_date
+                    Reply_Sent_Date = reply_sent_date,
+                    User_ID = user_id,
+                    Message_ID = message_id
+
                     //Reply_ModifiedDate = DateTime.UtcNow 
                 };
 

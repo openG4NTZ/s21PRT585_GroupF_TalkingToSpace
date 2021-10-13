@@ -56,7 +56,7 @@ namespace WEB_API.Controllers
         [Route("[action]")]
         public async Task<IActionResult> UpdateReply(Reply_Pass_Object reply)
         {
-            var result = await _Reply_Service.UpdateReply(reply.reply_id, reply.reply_content, reply.reply_status, reply.reply_modified_date, reply.reply_sent_date);
+            var result = await _Reply_Service.UpdateReply(reply.reply_id, reply.reply_content, reply.reply_status, reply.reply_modified_date, reply.reply_sent_date, reply.user_id, reply.message_id);
             switch (result.success)
             {
                 case true:
