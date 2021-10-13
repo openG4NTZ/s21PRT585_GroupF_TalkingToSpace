@@ -24,6 +24,5 @@ namespace WEB_API.Controllers
         {
             _auth0_Service.Auth0Post();     
         }
-
     }
 }
