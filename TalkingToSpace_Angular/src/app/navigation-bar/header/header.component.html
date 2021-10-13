@@ -1,3 +1,4 @@
+<div *ngIf="auth.user$ | async as user">
 <mat-toolbar>
     <div class=menu>
         <button mat-icon-button (click)="onToggleSidenav()">
@@ -10,17 +11,18 @@
         <button mat-button>
             <mat-icon>circle_notifications</mat-icon>
         </button>
-        <button mat-button routerLink="/login">
+        <button mat-button (click)="logout()" *ngIf="auth.isAuthenticated$ | async">
             <mat-icon>logout</mat-icon>
             Logout
         </button>
-        <button mat-button routerLink="/signup">
+        <button mat-button (click)="signup()" *ngIf="(auth.isAuthenticated$ | async) === false">
             <mat-icon>fingerprint</mat-icon>
             Signup
         </button>
-        <button mat-button routerLink="/login">
+        <button mat-button (click)="login()" *ngIf="(auth.isAuthenticated$ | async) === false">
             <mat-icon>login</mat-icon>
             Login
         </button>
     </div>
 </mat-toolbar>
+</div>

@@ -1,5 +1,8 @@
-import { Component, OnInit } from '@angular/core';
-import { trigger, transition, state, animate, style,useAnimation } from '@angular/animations';
+import { Component, OnInit, OnDestroy, EventEmitter } from '@angular/core';
+import { trigger, transition, state, animate, style,AnimationEvent } from '@angular/animations';
+import { AuthService } from '@auth0/auth0-angular';
+import {  Router } from '@angular/router';
+import { DataService } from "../_services/data.service";
 
 
 @Component({
@@ -17,34 +20,64 @@ import { trigger, transition, state, animate, style,useAnimation } from '@angula
       state(
         'final',
         style({
-          transform: 'scale(20)',
+          transform: 'scale(10)',
           marginLeft: '50%',
           marginRight: '50%',
           marginTop: '20%',
           marginBottom: '50%',
+          zIndex: 10
         })
       ),
-      transition('final=>initial', animate('1000ms')),
-      transition('initial=>final', animate('1500ms')),
+      transition('initial=>final', animate('2000ms'))
+
     ]),
   ],
 })
 export class HomeComponent implements OnInit {
 
+
+  selectedPlanet:string;
   currentState1 : any;
   currentState2 : any;
   currentState3 : any;
   currentState4 : any;
 
-  constructor() {
+  constructor(public auth: AuthService,private route: Router) {
+
+    this.selectedPlanet='earth';
     this.currentState1 = 'initial';
     this.currentState2 = 'initial';
     this.currentState3 = 'initial';
     this.currentState4 = 'initial';}
 
   ngOnInit(): void {
+
   }
 
+
+  onAnimationEvent(event: AnimationEvent, status:string) {
+    if(status=="done" &&  this.currentState1=="final")
+    {
+      this.route.navigate(['/post']);
+      this.selectedPlanet='earth';
+
+    }
+    if(status=="done" && this.currentState2=="final")
+    {
+      this.route.navigate(['/post']);
+      this.selectedPlanet='sun';
+    }
+    if(status=="done" && this.currentState3=="final")
+    {
+      this.route.navigate(['/post']);
+      this.selectedPlanet='moon';
+    }
+    if(status=="done" && this.currentState4=="final")
+    {
+      this.route.navigate(['/post']);
+      this.selectedPlanet='jupiter';
+    }
+  }
 
   changeStateplanet1() {
     if (
