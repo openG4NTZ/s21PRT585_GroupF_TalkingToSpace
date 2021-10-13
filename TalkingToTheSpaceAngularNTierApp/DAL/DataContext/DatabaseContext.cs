@@ -105,8 +105,7 @@ namespace DAL.DataContext
                    .HasMany<Reply>(app => app.Replies)
                    .WithOne(ap => ap.Message)
                    .HasForeignKey(app => app.Message_ID)
-                   .OnDelete(DeleteBehavior.Restrict);//Can't delete an applicants info Ever, We can update it though.
-
+                   .OnDelete(DeleteBehavior.NoAction);//Can't delete an applicants info Ever, We can update it though.
 
             #endregion
 
