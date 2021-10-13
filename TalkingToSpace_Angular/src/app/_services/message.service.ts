@@ -17,16 +17,16 @@ export class MessageService {
     return await this.http.get<MessageResult>(API_URL + 'GetAllMessages').toPromise();
   }
 
-  async addMessage(reply: Message): Promise<any> {
-    return await this.http.post<any>(API_URL + 'AddMessage', reply,{}).toPromise();;
+  async addMessage(message: Message): Promise<any> {
+    return await this.http.post<any>(API_URL + 'AddMessage', message,{}).toPromise();;
   }
 
-  async updateMessage(reply: Message): Promise<any> {
-    return await this.http.post<any>(API_URL + 'UpdateMessage', reply,{}).toPromise();;
+  async updateMessage(message: Message): Promise<any> {
+    return await this.http.post<any>(API_URL + 'UpdateMessage', message,{}).toPromise();;
   }
 
-  async  deleteMessage(reply: Message): Promise<any> {
-    return await this.http.post<any>(API_URL + 'DeleteeMessage', reply,{}).toPromise();;
+  async  deleteMessage(message: Message): Promise<any> {
+    return await this.http.post<any>(API_URL + 'DeleteMessage', message,{}).toPromise();;
   }
 
 }

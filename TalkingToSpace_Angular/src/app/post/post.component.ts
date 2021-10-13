@@ -116,9 +116,9 @@ export class PostComponent implements OnInit {
     let result = new MessageResult();
 
     this.currentMessage.message_id=message_id;
-    this.currentMessage.message_content="";
-    this.currentMessage.message_status='private';
-    this.currentMessage.user_id=2;
+    //this.currentMessage.message_content="";
+    //this.currentMessage.message_status='private';
+    //this.currentMessage.user_id=2;
     await this.MessageService
       .deleteMessage(this.currentMessage)
       .then(
