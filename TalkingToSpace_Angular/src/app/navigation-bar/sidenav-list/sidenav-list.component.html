@@ -1,0 +1,45 @@
+<mat-nav-list>
+    <img class="avatar" src="https://i1.wp.com/uhwfoundation.org/wp-content/uploads/2017/10/og-image-200x200.png?ssl=1" />
+    <h4 class="username"> userName</h4>
+    <p class="designation">Totalpoints</p>
+    <button mat-button routerLink="/profile" (click)="onSidenavClose()">
+        <mat-icon>person</mat-icon>
+        <span>Profile</span>
+    </button>    
+    <mat-divider></mat-divider>
+    <button mat-button routerLink="/home" (click)="onSidenavClose()">
+        <mat-icon>home</mat-icon>
+        <span>Home</span>
+    </button>
+    <button mat-button routerLink="/blog" (click)="onSidenavClose()">
+        <mat-icon>textsms</mat-icon>
+        <span>Blog</span>
+    </button>
+    <button mat-button routerLink="/tournament" (click)="onSidenavClose()">
+        <mat-icon>military_tech</mat-icon>
+        <span>Tournament</span>
+    </button>
+    <mat-divider></mat-divider>
+    <button mat-button routerLink="/about" (click)="onSidenavClose()">
+        <mat-icon>info</mat-icon>
+        <span>About</span>
+    </button>
+    <button mat-button routerLink="/help" (click)="onSidenavClose()">
+        <mat-icon>help</mat-icon>
+        <span>Help</span>
+    </button>
+    <mat-divider></mat-divider>
+    <button mat-button routerLink="/login" (click)="onSidenavClose()">
+        <mat-icon>login</mat-icon>
+        <span>Login</span>
+    </button>
+    <button mat-button routerLink="/signup" (click)="onSidenavClose()">
+        <mat-icon>fingerprint</mat-icon>
+        <span>Sign up</span>
+    </button>
+    <mat-divider></mat-divider>
+    <button mat-button routerLink="/login" (click)="onSidenavClose()">
+        <mat-icon>logout</mat-icon>
+        <span>Logout</span>
+    </button>
+</mat-nav-list>
