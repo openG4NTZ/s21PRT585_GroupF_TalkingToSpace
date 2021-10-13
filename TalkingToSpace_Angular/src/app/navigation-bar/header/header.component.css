@@ -1,0 +1,15 @@
+
+mat-toolbar{
+    position: absolute;
+    background-color:transparent;
+}
+.toolbar_items{
+    color:white;
+}
+.flexExpand{
+
+    flex: 1 1 auto;
+}
+.menu{
+    color:white;
+}
