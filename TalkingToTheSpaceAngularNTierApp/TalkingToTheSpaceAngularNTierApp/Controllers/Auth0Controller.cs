@@ -13,7 +13,6 @@ namespace WEB_API.Controllers
     [ApiController]
     public class Auth0Controller
     {
-
         [HttpPost]
         public async void Auth0Post()
         {

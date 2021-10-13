@@ -24,9 +24,9 @@ namespace WEB_API.Controllers
 
         [HttpPost]
         [Route("[action]")]
-        public async Task<IActionResult> AddMessage(string message_content, string message_status, DateTime message_sent_date, Int64 user_id)
+        public async Task<IActionResult> AddMessage(Message_Pass_Object message)
         {
-            var result = await _Message_Service.AddMessage(message_content, message_status, message_sent_date, user_id);
+            var result = await _Message_Service.AddMessage(message.message_content, message.message_status, message.message_sent_date, message.user_id);
             switch (result.success)
             {
                 case true:
