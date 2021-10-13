@@ -25,7 +25,6 @@ export class BlogComponent implements OnInit {
   currentMessage: Message = new Message();
   messages: MessageResult = new MessageResult();
   messageList: Message[];
-  messageListSorted: Message[];
 
   currentReply: Reply = new Reply();
   replys: ReplyResult = new ReplyResult();
@@ -40,8 +39,103 @@ export class BlogComponent implements OnInit {
 
   async ngOnInit(): Promise<void> {
     //GET TH GRADES ON LOAD
-   this.updateView();
+    this.messages.result_set = [];
+    var t = await this.MessageService
+      .getAllMessages()
+      .then((message_data) => {
 
+        if (message_data.success) {
+
+          this.messages = message_data;
+          this.messageList = message_data.result_set;
+        } else {
+          alert(message_data.backendMessage);
+        }
+      })
+      .catch((error) => {
+        alert(error);
+      });
+
+
+      this.replys.result_set = [];
+
+      var x = await this.ReplyService
+      .getAllReplys()
+      .then((replydata) => {
+
+        if (replydata.success) {
+
+          this.replys = replydata;
+          this.replyList = replydata.result_set;
+        } else {
+          alert(replydata.backendMessage);
+        }
+      })
+      .catch((error) => {
+        alert(error);
+      });
+
+
+
+  }
+
+  async updateMessage() {
+    let result = new MessageResult();
+    this.currentMessage.message_id=3;
+    this.currentMessage.message_content='I love you';
+    this.currentMessage.message_status='private';
+    this.currentMessage.message_modified_date=new Date();
+    this.currentMessage.message_sent_date=new Date();
+    this.currentMessage.user_id=2;
+
+    console.warn(this.currentMessage);
+    await this.MessageService
+      .updateMessage(this.currentMessage)
+      .then(
+        (updatedata) => {
+        result.success = updatedata.success;
+        result.backendMessage = updatedata.u;
+        if (result.success) {
+          alert('Updated Successfully!');
+        } else {
+          alert(result.backendMessage);
+        }
+        //this.currentUser = new User();
+      }
+      )
+      .catch((error) => {
+        alert(
+          error.error.backendMessage +
+            ' Please make sure you have provided all the values'
+        );
+      });
+  }
+
+  async deleteMessage() {
+    let result = new MessageResult();
+
+    this.currentMessage.message_id=3;
+    this.currentMessage.user_id=2;
+    await this.MessageService
+      .deleteMessage(this.currentMessage)
+      .then(
+        (data) => {
+        result.success = data.success;
+        result.backendMessage = data.userMessage;
+        if (result.success) {
+          alert('Deleted Successfully!');
+        } else {
+          alert(result.backendMessage);
+        }
+        //this.currentUser = new User();
+      }
+      )
+      .catch((error) => {
+        alert(
+          error.error.backendMessage +
+            ' Please make sure you have provided all the values'
+        );
+      });
   }
 
   async addReply(message_id:number, message_content:string) {
@@ -58,7 +152,6 @@ export class BlogComponent implements OnInit {
         result.backendMessage = data.userMessage;
         if (result.success) {
           alert('Comment Successfully Added!');
-          this.updateView();
         } else {
           alert(result.backendMessage);
         }
@@ -88,7 +181,6 @@ export class BlogComponent implements OnInit {
         result.backendMessage = data.userMessage;
         if (result.success) {
           alert('Updated Successfully!');
-          this.updateView();
         } else {
           alert(result.backendMessage);
         }
@@ -118,7 +210,6 @@ export class BlogComponent implements OnInit {
         result.backendMessage = data.userMessage;
         if (result.success) {
           alert('Deleted Successfully!');
-          this.updateView();
         } else {
           alert(result.backendMessage);
         }
@@ -141,46 +232,4 @@ export class BlogComponent implements OnInit {
     this.update_reply_available2=value2;
   }
 
-  async updateView(): Promise<void> {
-
-    this.messages.result_set = [];
-    var t = await this.MessageService
-      .getAllMessages()
-      .then((message_data) => {
-
-        if (message_data.success) {
-
-          this.messages = message_data;
-          this.messageList = message_data.result_set;
-
-
-        } else {
-          alert(message_data.backendMessage);
-        }
-      })
-      .catch((error) => {
-        alert(error);
-      });
-
-
-      this.replys.result_set = [];
-
-      var x = await this.ReplyService
-      .getAllReplys()
-      .then((replydata) => {
-
-        if (replydata.success) {
-
-          this.replys = replydata;
-          this.replyList = replydata.result_set;
-        } else {
-          alert(replydata.backendMessage);
-        }
-      })
-      .catch((error) => {
-        alert(error);
-      });
-
-
-  }
 }

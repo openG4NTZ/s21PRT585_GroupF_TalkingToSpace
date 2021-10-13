@@ -2,57 +2,54 @@
   <ul>
     <p class="p1"> Messages From Space </p>
   </ul>
-  <br><br>
   <div *ngFor="let message of messageList">
-    <div class="messagebody">
-    <label for="comment" class="required"> Username:{{message.message_id}}</label>
-    <br>
-      <p class="p2"> {{ message.message_content }} </p>
-        <br>
-        <div class="btn" *ngIf="reply_available==0">
-          <button mat-raised-button (click)="ToggleComment(message.message_id)" >Reply</button>
-        </div>
-        <div id="respond" *ngIf="reply_available==message.message_id">
-          <form action="post_comment.php" method="post" id="commentform">
+    <br><br>
+    <p class="p2"> {{ message.message_content }} </p>
+      <br><br>
+      <div class="btn" *ngIf="reply_available==0">
+        <button mat-raised-button (click)="ToggleComment(message.message_id)" >Reply</button>
+      </div>
+      <div id="respond" *ngIf="reply_available==message.message_id">
+        <form action="post_comment.php" method="post" id="commentform">
 
-            <label for="comment" class="required">Your message</label>
-            <br>
-            <textarea name="comment" id="comment" rows="10" tabindex="4" [(ngModel)] = "user_reply_content"  required="required"></textarea>
-            <br>
+          <label for="comment" class="required">Your message</label>
+          <br>
+          <textarea name="comment" id="comment" rows="10" tabindex="4" [(ngModel)] = "user_reply_content"  required="required"></textarea>
+          <br>
 
-            <input type="hidden" name="comment_post_ID" value="1" id="comment_post_ID" />
-            <br>
-            <input name="submit" type="submit" value="Submit comment" (click)="addReply(message.message_id,user_reply_content)"/>
-            <button (click)="ToggleComment(0)" >Close</button>
-          </form>
-        </div>
-        <div *ngFor="let reply of replyList">
-          <div class="comment" *ngIf="reply.message_id == message.message_id">
-            <p class="p3"> {{ reply.reply_content }} </p>
-            <div class="btn">
-              <div *ngIf="update_reply_available2==0">
-                <button mat-raised-button (click)="ToggleUpdateComment(message.message_id,reply.reply_id)" > Update Comment</button>
-                <div class="divider"> </div>
-                <button mat-raised-button (click)="deleteReply(message.message_id,reply.reply_id)" > Delete Comment</button>
-              </div>
-            </div>
-            <div id="respond" *ngIf="update_reply_available1==message.message_id  && update_reply_available2==reply.reply_id">
-              <form action="post_comment.php" method="post" id="commentform">
-
-                <label for="comment" class="required">Your message</label>
-                <br>
-                <textarea name="comment" id="comment" rows="10" tabindex="4" [(ngModel)] = "user_reply_content" required="required"></textarea>
-                <br>
-                <input type="hidden" name="comment_post_ID" value="1" id="comment_post_ID" />
-                <br>
-                <input name="submit" type="submit" value="Submit comment" (click)="updateReply(message.message_id,reply.reply_id,user_reply_content)"/>
-                <button  (click)="ToggleUpdateComment(0,0)" > Close</button>
-              </form>
+          <input type="hidden" name="comment_post_ID" value="1" id="comment_post_ID" />
+          <br>
+          <input name="submit" type="submit" value="Submit comment" (click)="addReply(message.message_id,user_reply_content)"/>
+          <button (click)="ToggleComment(0)" >Close</button>
+        </form>
+      </div>
+      <div *ngFor="let reply of replyList">
+        <div class="comment" *ngIf="reply.message_id == message.message_id">
+          <p class="p3"> {{ reply.reply_content }} </p>
+          <div class="btn">
+            <div *ngIf="update_reply_available2==0">
+              <button mat-raised-button (click)="ToggleUpdateComment(message.message_id,reply.reply_id)" > Update Comment</button>
+              <div class="divider"> </div>
+              <button mat-raised-button (click)="deleteReply(message.message_id,reply.reply_id)" > Delete Comment</button>
             </div>
           </div>
+          <div id="respond" *ngIf="update_reply_available1==message.message_id  && update_reply_available2==reply.reply_id">
+            <form action="post_comment.php" method="post" id="commentform">
+
+              <label for="comment" class="required">Your message</label>
+              <br>
+              <textarea name="comment" id="comment" rows="10" tabindex="4" [(ngModel)] = "user_reply_content" required="required"></textarea>
+              <br>
+              <input type="hidden" name="comment_post_ID" value="1" id="comment_post_ID" />
+              <br>
+              <input name="submit" type="submit" value="Submit comment" (click)="updateReply(message.message_id,reply.reply_id,user_reply_content)"/>
+              <button  (click)="ToggleUpdateComment(0,0)" > Close</button>
+            </form>
+          </div>
         </div>
-    </div>
+      </div>
   </div>
 </div>
+
 
 

@@ -18,16 +18,13 @@
     </form>
   </div>
   <div *ngFor="let message of messageList">
-    <br>
-    <div class="messagebody">
-      <br>
-      <p class="p2"> {{ message.message_content }} </p>
-      <div class="btn">
-        <div *ngIf="update_reply_available==0">
-          <button mat-raised-button (click)="ToggleUpdateComment(message.message_id)" > Update Message</button>
-          <div class="divider"> </div>
-          <button mat-raised-button (click)="deleteMessage(message.message_id)" > Delete Message</button>
-        </div>
+    <br><br>
+    <p class="p2"> {{ message.message_content }} </p>
+    <div class="btn">
+      <div *ngIf="update_reply_available==0">
+        <button mat-raised-button (click)="ToggleUpdateComment(message.message_id)" > Update Message</button>
+        <div class="divider"> </div>
+        <button mat-raised-button (click)="deleteMessage(message.message_id)" > Delete Message</button>
       </div>
     </div>
     <div id="respond" *ngIf="update_reply_available==message.message_id">
@@ -42,8 +39,6 @@
     </div>
     <div *ngFor="let reply of replyList">
       <div class="comment" *ngIf="reply.message_id == message.message_id">
-        <label for="comment" class="required"> Username:{{reply.reply_id}}</label>
-        <br>
         <p class="p3"> {{ reply.reply_content }} </p>
       </div>
     </div>

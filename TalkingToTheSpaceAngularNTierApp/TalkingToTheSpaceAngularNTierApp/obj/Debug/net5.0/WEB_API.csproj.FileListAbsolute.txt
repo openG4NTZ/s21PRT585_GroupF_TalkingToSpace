@@ -358,3 +358,4 @@ C:\Users\G4NTZ\Documents\GitHub\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpac
 =======
 E:\Github\PRT585-Development\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\RestSharp.dll
 >>>>>>> c9711fea4766c5a89ac3cbc0264168dc9f22590a
+C:\Users\G4NTZ\Documents\GitHub\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\RestSharp.dll

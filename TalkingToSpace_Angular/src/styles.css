@@ -2,5 +2,4 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;
-    background: black url('../src/assets/background4.jpg') no-repeat;
-  background-size: cover;}
+    background: black url('../src/assets/background2.png');}
