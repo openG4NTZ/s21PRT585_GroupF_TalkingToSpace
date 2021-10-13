@@ -281,6 +281,7 @@ E:\Github\PRT585-Development\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAn
 E:\Github\PRT585-Development\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\obj\Debug\net5.0\ref\WEB_API.dll
 E:\Github\PRT585-Development\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\obj\Debug\net5.0\WEB_API.pdb
 E:\Github\PRT585-Development\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\obj\Debug\net5.0\WEB_API.genruntimeconfig.cache
+<<<<<<< HEAD
 C:\Users\G4NTZ\Documents\GitHub\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\appsettings.Development.json
 C:\Users\G4NTZ\Documents\GitHub\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\appsettings.json
 C:\Users\G4NTZ\Documents\GitHub\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\WEB_API.exe
@@ -354,3 +355,6 @@ C:\Users\G4NTZ\Documents\GitHub\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpac
 C:\Users\G4NTZ\Documents\GitHub\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\obj\Debug\net5.0\ref\WEB_API.dll
 C:\Users\G4NTZ\Documents\GitHub\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\obj\Debug\net5.0\WEB_API.pdb
 C:\Users\G4NTZ\Documents\GitHub\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\obj\Debug\net5.0\WEB_API.genruntimeconfig.cache
+=======
+E:\Github\PRT585-Development\s21PRT585_GroupF_TalkingToSpace\TalkingToTheSpaceAngularNTierApp\TalkingToTheSpaceAngularNTierApp\bin\Debug\net5.0\RestSharp.dll
+>>>>>>> c9711fea4766c5a89ac3cbc0264168dc9f22590a
