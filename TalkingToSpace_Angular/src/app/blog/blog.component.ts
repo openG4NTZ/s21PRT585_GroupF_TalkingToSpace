@@ -3,9 +3,9 @@ import {User} from '../_models/user.model'
 import { UserResult } from '../_models/user-result.model';
 import {Message} from '../_models/message.model'
 import { MessageResult } from '../_models/message-result.model';
+import { MessageService } from '../_services/message.service';
 import {Reply} from '../_models/reply.model'
 import { ReplyResult } from '../_models/reply-result.model';
-import { MessageService } from '../_services/message.service';
 import { ReplyService } from '../_services/reply.service';
 import {  Router } from '@angular/router';
 import { AuthService } from '@auth0/auth0-angular';

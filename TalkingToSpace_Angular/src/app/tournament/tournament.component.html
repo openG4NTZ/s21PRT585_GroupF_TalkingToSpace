@@ -1,21 +1,15 @@
 <div class="mainDiv">
-  <button (click)="showList()" id="allStudentsBtn">List of studetns:</button>
+  <button (click)="showList()" id="allUsersBtn">Tournament</button>
 
   <div class="buttons">
-    <button (click)="filterResults(underFifty)" >Grade under < 50</button>
-    <button (click)="filterResults(aboveFifty)" >Grade above > 50</button>
-    <button (click)="filterResults(grade100)" >Grade = 100</button>
+    <button (click)="filterResults(underFifty)" >Points under < 50</button>
+    <button (click)="filterResults(aboveFifty)" >Points above > 50</button>
+    <input #search (keyup)="searchFunc(search.value)" id="search" type="text" placeholder="Search Name" >
   </div>
-  <label for="search">Name:</label>
-    <input #search (keyup)="searchFunc(search.value)" id="search" type="text" placeholder="Search" >
   <div *ngIf="showBool">
-  <ul *ngFor="let student of copyStudentdsJson">
-    <li>Name: {{student.name}}<br>
-      Gender: {{student.gender}}<br>
-      Grade: {{student.grade}}</li>
-      Tests
-      <br>
-      test
+    <ul *ngFor="let user of copypointList">
+        <li>User ID: {{user.user_id}}<br>
+        Total points: {{user.point_amount}}</li>
     </ul>
-    </div>
   </div>
+</div>

@@ -40,13 +40,11 @@
   color:white;
   background-color:transparent;
   box-shadow: 6px 6px 10px rgb(204, 214, 255);
-  border:3px solid black;
 
   }.btn>button:hover{
-  color:white;
-  background-color:gray;
+    color:white;
+    background-color:transparent;
   box-shadow: 6px 6px 10px rgb(204, 214, 255);
-   border:3px solid rgb(204, 166, 240);
   }
 .p1 {
   font-family: "Lucida Console", "Courier New", monospace;
