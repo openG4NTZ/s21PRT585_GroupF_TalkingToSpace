@@ -381,6 +381,21 @@
           "lib/netstandard2.0/Exceptionless.Extensions.Hosting.dll": {}
         }
       },
+      "Exceptionless.Log4net/4.6.2": {
+        "dependencies": {
+          "Exceptionless": "4.6.2",
+          "log4net": "2.0.12"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Exceptionless.Log4net.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.6.2.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Exceptionless.Log4net.dll": {}
+        }
+      },
       "Humanizer.Core/2.8.26": {
         "runtime": {
           "lib/netstandard2.0/Humanizer.dll": {
@@ -1988,6 +2003,7 @@
       "DAL/1.0.0": {
         "dependencies": {
           "Exceptionless.AspNetCore": "4.6.2",
+          "Exceptionless.Log4net": "4.6.2",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "5.0.10",
           "Microsoft.EntityFrameworkCore": "5.0.10",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.10",
@@ -3729,6 +3745,13 @@
       "sha512": "sha512-m7RfFJzVgyG+30dPH8URMSiThpZFmIrR7NHYut3gvZkF7/eR3ItiCF5uhEBj/hzTOlF46r6BcmedzCmH1tHJdg==",
       "path": "exceptionless.extensions.hosting/4.6.2",
       "hashPath": "exceptionless.extensions.hosting.4.6.2.nupkg.sha512"
+    },
+    "Exceptionless.Log4net/4.6.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FfsCN6zmNQrghK85pDm9YcD+W2x/rqpNmP0XsyULaVWSOrZpg86AYjPXZJlr4Ax372j14HVAAzwxx2hAI0Yvcw==",
+      "path": "exceptionless.log4net/4.6.2",
+      "hashPath": "exceptionless.log4net.4.6.2.nupkg.sha512"
     },
     "Humanizer.Core/2.8.26": {
       "type": "package",

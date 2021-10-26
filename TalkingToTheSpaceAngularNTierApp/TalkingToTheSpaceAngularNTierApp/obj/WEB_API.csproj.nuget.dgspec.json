@@ -38,10 +38,6 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
-            "Exceptionless.AspNetCore": {
-              "target": "Package",
-              "version": "[4.6.2, )"
-            },
             "Exceptionless.Log4net": {
               "target": "Package",
               "version": "[4.6.2, )"

@@ -365,3 +365,4 @@ C:/Users/Alan Truong/Desktop/s21PRT585_GroupF_TalkingToSpace/TalkingToTheSpaceAn
 /Users/milk/Documents/GitHub/s21PRT585_GroupF_TalkingToSpace/TalkingToTheSpaceAngularNTierApp/TalkingToTheSpaceAngularNTierApp/obj/Debug/net5.0/ref/WEB_API.dll
 /Users/milk/Documents/GitHub/s21PRT585_GroupF_TalkingToSpace/TalkingToTheSpaceAngularNTierApp/TalkingToTheSpaceAngularNTierApp/obj/Debug/net5.0/WEB_API.pdb
 /Users/milk/Documents/GitHub/s21PRT585_GroupF_TalkingToSpace/TalkingToTheSpaceAngularNTierApp/TalkingToTheSpaceAngularNTierApp/obj/Debug/net5.0/WEB_API.genruntimeconfig.cache
+/Users/milk/Documents/GitHub/s21PRT585_GroupF_TalkingToSpace/TalkingToTheSpaceAngularNTierApp/TalkingToTheSpaceAngularNTierApp/bin/Debug/net5.0/Exceptionless.Log4net.dll
