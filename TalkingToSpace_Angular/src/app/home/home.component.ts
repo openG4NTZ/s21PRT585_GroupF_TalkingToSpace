@@ -20,7 +20,7 @@ import { DataService } from "../_services/data.service";
       state(
         'final',
         style({
-          transform: 'scale(5) rotate(70deg)',
+          transform: 'scale(10) rotate(70deg)',
           marginLeft: '50%',
           marginRight: '50%',
           marginTop: '20%',

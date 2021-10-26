@@ -75,8 +75,8 @@ export class BlogComponent implements OnInit {
 
   async updateReply(message_id:number,reply_id:number,message_content:string) {
     let result = new ReplyResult();
-    this.currentReply.reply_id=8;
-    this.currentReply.message_id=4;
+    this.currentReply.reply_id=reply_id;
+    this.currentReply.message_id=message_id;
     this.currentReply.reply_status='private';
     this.currentReply.reply_content=message_content;
     this.currentReply.user_id=2;

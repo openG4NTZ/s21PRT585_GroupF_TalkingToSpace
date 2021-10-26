@@ -1,21 +1,73 @@
 
+<div *ngIf="auth.user$ | async as user" >
+<div class="container">
+	<div class="row custom-wrapper">
+		<div class="col-md-12" >
 
-<div *ngIf="auth.user$ | async as user">
-  <div class="row align-items-center profile-header">
-    <div class="col-md-2 mb-3">
-      <img
-        [src]="user.picture"
-        alt="User's profile picture"
-        class="rounded-circle img-fluid profile-picture"
-      />
-    </div>
-    <div class="col-md text-center text-md-left">
-      <h2>{{ user.name }}</h2>
-      <p class="lead text-muted">{{ user.email }}</p>
+			<!-- Form starts -->
+			<form [formGroup]="registrationForm" (ngSubmit)="onSubmit()">
+
+				<div class="group-gap">
+
+					<!-- Upload image -->
+					<div class="avatar-upload">
+						<div class="avatar-edit">
+							<input type='file' id="imageUpload" accept=".png, .jpg, .jpeg" #fileInput (change)="uploadFile($event)" />
+            </div>
+            <div class="avatar-preview">
+              <div id="imagePreview" [style.backgroundImage]="'url('+ imageUrl +')'">
+              </div>
+            </div>
+          </div>
+        </div>
+
+          <!-- Submit Button -->
+          <button type="submit" class="btn btn-danger btn-lg btn-block" (click)="fileInput.click()">Upload Image</button> <br>
+          <button class="btn btn-danger btn-lg btn-block" (click)="downloadImage()">Download Image</button>
+
+      </form><!-- Form ends -->
     </div>
   </div>
-
-  <div class="row" *ngIf="profileJson">
-    <pre class="col-12 text-light bg-dark p-4">{{ profileJson }}</pre>
+</div><br>
+<div class="cont" fxLayout="row" fxFlex="100" fxLayoutGap="25px" fxLayoutAlign="center start">
+  <div fxFlex="70" fxLayout.gt-md="row" fxLayout="column" fxLayoutGap="25px">
+    <mat-card fxLayout="column" fxLayoutGap="25px">
+      <mat-card-content>
+        <div>
+          <div fxLayout="row-reverse">
+            <button mat-icon-button (click)="doEditBody()">
+              <mat-icon class="topMenu">edit</mat-icon>
+            </button>
+          </div>
+          <div *ngIf="editBody == false" fxLayout="row" fxFlexFill>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut fermentum lobortis feugiat. Sed justo sapien, malesuada at ultricies et, sollicitudin at turpis. Donec
+          </div>
+          <div *ngIf="editBody == true">
+            <mat-form-field>
+            <textarea matInput placeholder="" matTextareaAutosize matAutosizeMinRows="2" matAutosizeMaxRows="5"></textarea>
+            </mat-form-field>
+          </div>
+        </div>
+      </mat-card-content>
+    </mat-card><br>
+    <div fxFlex="30" fxLayout="column" fxLayoutGap="25px">
+      <mat-card fxLayout="column" fxLayoutGap="25px" (mouseenter)="aboutMeActive = true" (mouseleave)="aboutMeActive = false" [class.mat-elevation-z8]="aboutMeActive">
+        Name: {{ user.name }}
+      </mat-card><br>
+      <mat-card fxLayout="column" fxLayoutGap="25px" (mouseenter)="particularsActive = true" (mouseleave)="particularsActive = false" [class.mat-elevation-z8]="particularsActive">
+        User Name: {{ user.nickname }}
+      </mat-card><br>
+      <mat-card fxLayout="column" fxLayoutGap="25px" (mouseenter)="extrasActive = true" (mouseleave)="extrasActive = false" [class.mat-elevation-z8]="extrasActive">
+        Email Address: {{ user.email }}
+      </mat-card><br>
+      <mat-card fxLayout="column" fxLayoutGap="25px" (mouseenter)="extrasActive = true" (mouseleave)="extrasActive = false" [class.mat-elevation-z8]="extrasActive">
+        Total Points:
+      </mat-card><br>
+    </div>
   </div>
 </div>
+</div>
+
+<agm-map style="height:500px" [zoom]='19' [latitude]="lat" [longitude]="lng">
+  <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
+</agm-map>

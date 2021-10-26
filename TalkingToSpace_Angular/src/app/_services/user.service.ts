@@ -19,7 +19,7 @@ export class UserService {
 
   async addUser(user: User): Promise<any> {
     return await this.http.post<any>(API_URL + 'AddUser', user,{})
-    .toPromise();;
+    .toPromise();
   }
 
   updateUser(data:any): Observable<any> {
