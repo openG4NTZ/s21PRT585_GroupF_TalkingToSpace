@@ -26,7 +26,7 @@ export class SidenavListComponent implements OnInit {
 
 
   ngOnInit(): void {
-
+    document.body.style.backgroundImage = "url('./../../../assets/background4.jpg')";
   }
   public onSidenavClose = () => {
     this.sidenavClose.emit();

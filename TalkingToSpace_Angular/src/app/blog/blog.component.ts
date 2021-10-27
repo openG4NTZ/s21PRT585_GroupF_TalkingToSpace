@@ -39,6 +39,8 @@ export class BlogComponent implements OnInit {
   }
 
   async ngOnInit(): Promise<void> {
+
+    document.body.style.backgroundImage = "url('./../../../assets/background4.jpg')";
     //GET TH GRADES ON LOAD
    this.updateView();
 

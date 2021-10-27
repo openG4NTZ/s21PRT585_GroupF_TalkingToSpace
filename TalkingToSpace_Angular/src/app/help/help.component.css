@@ -1,0 +1,12 @@
+.example-full-width{
+  background-color:white;
+  margin:0 auto;
+  display: flex;
+}
+.cont2{
+  margin:0 auto;
+  display: flex;
+  text-align: center;
+}
+
+

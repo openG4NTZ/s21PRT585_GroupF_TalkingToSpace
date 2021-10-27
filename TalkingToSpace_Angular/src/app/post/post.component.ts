@@ -9,6 +9,7 @@ import { MessageService } from '../_services/message.service';
 import { ReplyService } from '../_services/reply.service';
 import {  Router } from '@angular/router';
 import { AuthService } from '@auth0/auth0-angular';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-post',
@@ -20,6 +21,7 @@ export class PostComponent implements OnInit {
   reply_available:number;
   update_reply_available:number;
   user_message_content:string;
+  background:any="empty";
 
   currentMessage: Message = new Message();
   messages: MessageResult = new MessageResult();
@@ -30,16 +32,19 @@ export class PostComponent implements OnInit {
   replys: ReplyResult = new ReplyResult();
   replyList: Reply[];
 
-  constructor(private MessageService: MessageService, private ReplyService: ReplyService, private route: Router, public auth: AuthService) {
+  constructor(private activatedroute:ActivatedRoute,private MessageService: MessageService, private ReplyService: ReplyService, private route: Router, public auth: AuthService) {
     this.reply_available=0;
     this.update_reply_available=0;
     this.user_message_content="";
+    this.background=this.route.getCurrentNavigation().extras.state.example;
   }
 
   async ngOnInit(): Promise<void> {
-    //GET TH GRADES ON LOAD
    this.updateView();
-
+   if(this.background=="earth"){document.body.style.backgroundImage = "url('./../../assets/earth.png')"; }
+   if(this.background=="jupiter"){document.body.style.backgroundImage = "url('./../../assets/jupiter.png')"; }
+   if(this.background=="sun"){document.body.style.backgroundImage = "url('./../../assets/sun.png')"; }
+   if(this.background=="moon"){document.body.style.backgroundImage = "url('./../../assets/moon.png')"; }
   }
 
   async addMessage(message_content:string) {

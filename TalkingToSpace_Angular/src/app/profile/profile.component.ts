@@ -71,6 +71,9 @@ export class ProfileComponent implements OnInit {
 
 
   ngOnInit(): void {
+
+
+    document.body.style.backgroundImage = "url('./../../../assets/background4.jpg')";
     this.auth.user$.subscribe(
       (profile) => (this.profileJson = JSON.stringify(profile, null, 2))
     );

@@ -52,29 +52,31 @@ export class HomeComponent implements OnInit {
 
   ngOnInit(): void {
 
+    document.body.style.backgroundImage = "url('./../../../assets/background4.jpg')";
   }
 
 
   onAnimationEvent(event: AnimationEvent, status:string) {
     if(status=="done" &&  this.currentState1=="final")
     {
-      this.route.navigate(['/post']);
+      //this.route.navigate(['/post']);
+      this.route.navigate(['post'], {state: { example: 'earth' }});
       this.selectedPlanet='earth';
 
     }
     if(status=="done" && this.currentState2=="final")
     {
-      this.route.navigate(['/post']);
+      this.route.navigate(['post'], {state: { example: 'sun' }});
       this.selectedPlanet='sun';
     }
     if(status=="done" && this.currentState3=="final")
     {
-      this.route.navigate(['/post']);
+      this.route.navigate(['post'], {state: { example: 'moon' }});
       this.selectedPlanet='moon';
     }
     if(status=="done" && this.currentState4=="final")
     {
-      this.route.navigate(['/post']);
+      this.route.navigate(['post'], {state: { example: 'jupiter' }});
       this.selectedPlanet='jupiter';
     }
   }
